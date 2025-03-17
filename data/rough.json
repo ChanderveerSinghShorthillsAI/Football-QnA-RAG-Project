@@ -1,0 +1,1601 @@
+[{
+"question": "Which Labour Party leader was the youngest when he took office?",
+"ground_truth": "Jeremy Corbyn became the Labour leader in 2015 at the age of 67.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did Airbus score the most goals in a single Ligue 2 match?",
+"ground_truth": "Airbus scored 6 goals against Clermont Foot in the 2019-2020 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did Kevin Nisbet score his first career hat-trick in the Scottish Premiership?",
+"ground_truth": "Kevin Nisbet scored his first career hat-trick in the Scottish Premiership on 22 May 2021 against Ross County.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did Rotherham United record the most goals scored in a single league match?",
+"ground_truth": "In the 2014-15 Championship season, Rotherham United scored 7 goals against Ipswich Town.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Welsh international defender scored the fastest own goal in Premier League history within 2 minutes and 24 seconds?",
+"ground_truth": "Ben Davies scored an own goal against Tottenham Hotspur in 2 minutes and 24 seconds, making it the fastest own goal in Premier League history.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Welsh international striker holds the record for the most goals in a single FAW European Qualifiers campaign?",
+"ground_truth": "Gareth Bale holds the record with 11 goals in the 2013-2014 campaign.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which year did U win their first major trophy?",
+"ground_truth": "U won their first major trophy in 1997, when they lifted the FA Cup.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "How many goals did Geoffroy Bony score for Swansea City in the English Premier League during the 2015-2016 season?",
+"ground_truth": "Geoffroy Bony scored 12 goals for Swansea City in the English Premier League during the 2015-2016 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which former Ipswich Town player scored the most goals in a single season?",
+"ground_truth": "Darren Bent scored 24 goals in the 2002-2003 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team holds the record for the most goals scored in a single Mid-Ulster Cup match?",
+"ground_truth": "Portadown FC scored 12 goals against Lurgan Town in the 2001-2002 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Munich club has the highest average attendance in a single season in the Bundesliga?",
+"ground_truth": "Bayern Munich had an average attendance of 75,024 during the 2015-2016 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Crues player scored the most goals in a single season during the 1950s?",
+"ground_truth": "Jimmy McAlinden scored 29 goals in the 1957-1958 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Glasgow City player scored the most goals in the Scottish Women's Premier League in a single season?",
+"ground_truth": "Leanne Crichton holds the record with 27 goals in the 2014-2015 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which player holds the record for most goals scored in a single Scottish Cup match?",
+"ground_truth": "Bobby Templeton scored a record 7 goals for Celtic against East Stirlingshire in 1955.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Championship club has the record for the most goals scored in a single league season?",
+"ground_truth": "Queens Park Rangers scored 103 goals in the 1947-48 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Byron Webster make his professional debut for in the Championship?",
+"ground_truth": "Bristol City",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which MLS team did Duane Holmes make the most assists for in a single season?",
+"ground_truth": "Duane Holmes made a career-high 9 assists for the Colorado Rapids in the 2019 MLS season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Bournemouth player scored the most goals in a single Premier League season?",
+"ground_truth": "Josh King holds the record with 16 goals in the 2015-16 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which year did Richard Montague make his professional debut for Manchester United?",
+"ground_truth": "Richard Montague made his professional debut for Manchester United in 1976.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Ronan Hale make his professional debut for and in which year?",
+"ground_truth": "Ronan Hale made his professional debut for Dundalk F.C. in 2015.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Conor Bradley make his professional debut for in the EFL Championship?",
+"ground_truth": "Conor Bradley made his professional debut for Blackburn Rovers against Millwall in the EFL Championship on 12 March 2022.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Kevin Gonzalez Quintero make his professional debut against in the Mexican Primera División?",
+"ground_truth": "Santos Laguna, on May 24, 2015",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team has the highest number of consecutive wins in the Cymru North?",
+"ground_truth": "Bangor City holds the record with 11 consecutive wins during the 2015-2016 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Notts County player has scored the most goals in the FA Cup?",
+"ground_truth": "James Aldridge holds the record with 11 goals in the FA Cup for Notts County.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "What is the name of the football club where Sheehan made the most appearances in the English Championship?",
+"ground_truth": "Reading FC",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "What is Lewis Harrison's highest number of assists in a single season for his respective club?",
+"ground_truth": "Lewis Harrison had 13 assists for Swansea City during the 2019-2020 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team in the English Premier League has the highest average number of passes per game?",
+"ground_truth": "As of the 2021-2022 season, Manchester City averages the most passes per game (648.6).",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Welsh club did Rhys Hughes score a hat-trick against in the League Cup during the 1996-1997 season?",
+"ground_truth": "Cardiff City",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Milutin Osmajic manage to lead to their first league title in their history?",
+"ground_truth": "Osmajic guided Vardar to the Macedonian First League championship title in the 2000-2001 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0.010761308100691222,
+"rouge_score": {
+    "rouge-1": 0.09523809523809522,
+    "rouge-2": 0.0,
+    "rouge-L": 0.09523809523809522
+},
+"f1_score": 0.10526315789473684
+},
+{
+"question": "Which team did Dominic Solanke score his first career hat-trick against in the English Championship?",
+"ground_truth": "Crystal Palace, on March 14, 2015.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which league did Matt Bloomfield score his first professional goal in?",
+"ground_truth": "Matt Bloomfield scored his first professional goal in League One for Swindon Town against Hartlepool United on 17 October 2005.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which VAR incident in the UEFA Champions League 2019-2020 resulted in the most heated arguments between players and referees?",
+"ground_truth": "The penalty call against Paris Saint-Germain's Marco Verratti during their match against Real Madrid on February 25, 2020, led to an intense confrontation.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0.0024011723999138278,
+"rouge_score": {
+    "rouge-1": 0.06451612903225806,
+    "rouge-2": 0.0,
+    "rouge-L": 0.06451612903225806
+},
+"f1_score": 0.07142857142857144
+},
+{
+"question": "In which season did Nagasato score the most goals in the J1 League?",
+"ground_truth": "Nagasato scored 18 goals in the 2012 J1 League season while playing for Sanfrecce Hiroshima.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Sky commentator holds the record for most Premier League goals scored by a player while being covered by him?",
+"ground_truth": "Alan Shearer holds the Premier League record of 260 goals.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Finnish goalkeeper holds the record for most clean sheets in a single Champions League campaign?",
+"ground_truth": "Anssi Jaakkola held the record with 11 clean sheets for Ajax Amsterdam in the 1994-95 campaign.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which year did Livingston F.C. first join the Scottish Professional Football League?",
+"ground_truth": "Livingston F.C. joined the Scottish Professional Football League in 1995.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Who was Sheffield United's top goalscorer during their 2020/21 Premier League season?",
+"ground_truth": "Billy Sharp scored 11 goals for Sheffield United during the 2020/21 Premier League season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "How many goals did Ronan Hale score for his team in League One during the 2021 season?",
+"ground_truth": "Ronan Hale scored 12 goals for his team in League One during the 2021 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In what year did Aberdeen win their first major trophy in Scottish football?",
+"ground_truth": "Aberdeen won their first major trophy in Scottish football in 1947, when they won the Scottish Cup.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Bobby Robson manage to lead to their first FA Cup final appearance?",
+"ground_truth": "Ipswich Town reached their first FA Cup final in 1980-81 under Bobby Robson's management.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team holds the record for the most Champions League group stage wins in a single season?",
+"ground_truth": "Manchester City holds the record with 14 wins in the 2020-2021 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which goalkeeper holds the record for the most clean sheets in the Champions League group stage?",
+"ground_truth": "Manuel Neuer, with a total of 40 clean sheets in the Champions League group stage.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Brisbane Roar player has scored the most goals in a single A-League season?",
+"ground_truth": "Brett Holman holds the record with 18 goals in the 2010-2011 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did Juric make the most goals for Basel in a single league game?",
+"ground_truth": "Juric scored 5 goals for Basel against Thun in the Swiss Super League on March 6, 2016.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which league did George Broadbent score the most goals in a single season?",
+"ground_truth": "George Broadbent scored 24 goals in the 1925-1926 English Second Division season while playing for Sunderland.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Leicester City player scored the most goals in a single Premier League season?",
+"ground_truth": "Jamie Vardy holds the record with 23 goals in the 2015-2016 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Omer Riza score his only goal for in the English Premier League?",
+"ground_truth": "Omer Riza scored his only Premier League goal for Wigan Athletic against Aston Villa in 2004.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Istanbul stadium hosted the 2005 UEFA Champions League Final between Liverpool and AC Milan?",
+"ground_truth": "The Atatürk Olympic Stadium",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "How many league games did Matt Bloomfield play for Reading in the 2010-11 Championship season?",
+"ground_truth": "Matt Bloomfield made 39 league appearances for Reading in the 2010-11 Championship season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "How many goals did Luke Williams score in the 2018-2019 Championship season for his respective team?",
+"ground_truth": "Luke Williams scored 12 goals in the 2018-2019 Championship season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Roma player holds the record for the most league goals in a single season?",
+"ground_truth": "Vincenzo Montella holds the record with 24 goals in the 2000-2001 Serie A season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which Istanbul Derby match did Fenerbahce score exactly 5 goals against Galatasaray?",
+"ground_truth": "Fenerbahce scored 5 goals against Galatasaray in a derby match on March 2, 1997.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which African nation will finish as the top scorer in the 2026 World Cup group stage?",
+"ground_truth": "Senegal is projected to lead the goalscoring charts with 11 goals.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0.01774239756616722,
+"rouge_score": {
+    "rouge-1": 0.11764705882352942,
+    "rouge-2": 0.0,
+    "rouge-L": 0.11764705882352942
+},
+"f1_score": 0.11764705882352942
+},
+{
+"question": "Which team scored the most goals at Wembley during the FA Cup finals?",
+"ground_truth": "Manchester United, with 41 goals scored between 1893 and 2021.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did Nigel Clough score his only professional hat-trick in the Football League?",
+"ground_truth": "Nigel Clough scored a hat-trick for Mansfield Town in the 1996–97 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Aberdeen player scored the most goals in a single Scottish Premiership match at Easter Road?",
+"ground_truth": "Adam Rooney scored a hat-trick against Hibernian in 2015, netting 3 goals in a single game.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Scottish Cup match at Hampden Park had the highest attendance figure?",
+"ground_truth": "The record attendance for a Scottish Cup match at Hampden Park was 148,852 for the 1937 Scottish Cup Final between Rangers and Celtic.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Larne player holds the record for most goals scored in a single season?",
+"ground_truth": "Gerard McMahon scored 29 goals for Larne in the 1958-59 Irish League season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which club did John Mousinho score his first career hat-trick against in the Championship?",
+"ground_truth": "John Mousinho scored his first career hat-trick against Reading in the Championship on March 14, 2009.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which country did Olga Ahtinen make her international debut for, and in which year?",
+"ground_truth": "Olga Ahtinen made her international debut for Finland in 2002.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Derry City player holds the record for most goals in a single league season?",
+"ground_truth": "Rory Patterson holds the record with 18 goals in the 2006 Irish Premier League season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Scottish Premiership club holds the record for the most clean sheets in a single season?",
+"ground_truth": "Celtic, under manager Neil Lennon, set the record with 25 clean sheets during the 2015-2016 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Spurs player scored the most goals from set-pieces in a single season?",
+"ground_truth": "Robert Soldado holds the record, scoring 10 goals from set-pieces in the 2014-2015 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Brazilian player holds the record for the most goals scored in a single Copa América tournament?",
+"ground_truth": "Neymar scored 6 goals in 2011.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did Nikki Doucet score the most goals for Crystal Palace Women in a single match?",
+"ground_truth": "Nikki Doucet scored 5 goals for Crystal Palace Women against Millwall Lionesses in the FA WSL on October 23, 2021.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Dutch team scored the most goals in a single Eredivisie match with Donyell Malen on the pitch?",
+"ground_truth": "PSV Eindhoven scored 7 goals against NEC on March 5, 2023, with Donyell Malen contributing 2 goals and 1 assist.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which football club did Charlie Methven serve as chief executive before joining Bournemouth?",
+"ground_truth": "Charlie Methven was the chief executive of Coventry City before joining Bournemouth.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Who scored the most goals per game on average for Barcelona in the 1999–2000 season?",
+"ground_truth": "Ronaldo de Lima scored 1.06 goals per game.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which English Premier League season did Jim Magilton score the most goals for Fulham?",
+"ground_truth": "Magilton scored 8 goals in the 2005-06 season for Fulham.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Michael O'Neill lead to their first major international tournament appearance?",
+"ground_truth": "Northern Ireland, at Euro 2016.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did Eric Steele keep the most clean sheets in the FA Cup for Manchester United?",
+"ground_truth": "Eric Steele kept a record-breaking 12 clean sheets in the FA Cup during the 1982-1983 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Harry Owen score his first goal against in the 2021-22 Premier League?",
+"ground_truth": "Harry Owen scored his first Premier League goal against Wolverhampton Wanderers on 24th October 2021.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which player holds the record for most goals scored in a single European Championship qualifying campaign for the Republic of Ireland?",
+"ground_truth": "Robbie Keane scored 14 goals during the 2012 qualifiers.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which player holds the record for the most assists in a single Champions League campaign?",
+"ground_truth": "Lionel Messi holds the record with 16 assists during the 2011-2012 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which player has scored the most goals for Reading in a single Premier League season?",
+"ground_truth": "Shane Long holds the record with 14 goals in the 2005-2006 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Connor Roberts make his professional debut against in the Championship?",
+"ground_truth": "Connor Roberts made his professional debut for Swansea City against Rotherham United in the Championship on August 7, 2015.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which manager led Ballymena United to their last league title in the 2018/19 season?",
+"ground_truth": "David Jeffrey was the manager who led Ballymena United to the league title in the 2018/19 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0.006527063301683154,
+"rouge_score": {
+    "rouge-1": 0.08333333333333333,
+    "rouge-2": 0.0,
+    "rouge-L": 0.08333333333333333
+},
+"f1_score": 0.09523809523809522
+},
+{
+"question": "Which player holds the record for the most assists in a single Ligue 1 season for PSG?",
+"ground_truth": "Thomas Meunier holds the record with 16 assists in the 2018-2019 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "What is the exact number of yellow cards Mat Sadler received in the Championship during the 2008-2009 season?",
+"ground_truth": "Mat Sadler received 10 yellow cards in the Championship during the 2008-2009 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did Mohamed Salah score the most goals in the UEFA Champions League group stage?",
+"ground_truth": "Mohamed Salah scored a total of 7 goals in the 2017-2018 UEFA Champions League group stage for Liverpool FC.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which player scored the most goals for Haverfordwest County in a single league season?",
+"ground_truth": "The record for most goals in a single league season by a Haverfordwest County player is 23, which was scored by Martin Davies in the 1994-1995 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "What is the highest number of goals Jim Ratcliffe scored in a single FA Cup match?",
+"ground_truth": "Jim Ratcliffe scored a hat-trick with 3 goals against Crystal Palace in the FA Cup quarter-finals in 1992.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Carrick Rangers player holds the record for the most goals in a single Irish Cup campaign?",
+"ground_truth": "Johnny McMurray scored a record 11 goals for Carrick Rangers in the Irish Cup during the 1984-85 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Manchester United Women's player registered the most assists in the FA WSL 1 during the 2019-2020 season?",
+"ground_truth": "Alex Greenwood made a total of 9 assists for Manchester United Women in the FA WSL 1 2019-2020 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "What is the record for the most goals scored in a single Football League One game by Doncaster Rovers?",
+"ground_truth": "On 15 March 2008, Doncaster Rovers scored 11 goals against Crewe Alexandra in a Football League One game.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which club's players scored the most goals in a single Premier League season while wearing the number 9 shirt, and how many goals were scored?",
+"ground_truth": "Galgorm's Andy Cole scored 34 goals during the 1993-1994 season while wearing the number 9 shirt.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "What was the attendance record for a Southend home game in the League One era?",
+"ground_truth": "The highest attendance at Roots Hall during Southend's time in League One was 11,146, recorded against Oldham Athletic in 2016.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did Phil Parkinson's Bolton Wanderers finish highest in the English Championship table?",
+"ground_truth": "During the 2001-2002 season, Bolton Wanderers finished 2nd in the English Championship under Phil Parkinson.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which European country did Simone Magill start her senior club career?",
+"ground_truth": "Simone Magill began her senior club career in Germany with 1. FFC Turbine Potsdam.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Milos Kerkez make his debut for in the Austrian Bundesliga?",
+"ground_truth": "Wacker Innsbruck",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which FA Cup match did Amy Goddard score the fastest goal in just 15 seconds?",
+"ground_truth": "Amy Goddard scored the fastest goal in FA Cup history in just 15 seconds for Millwall Lionesses against Birmingham City Ladies in 2012.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team in the Premier League has scored the most goals from set-pieces in the 2021-2022 season?",
+"ground_truth": "Manchester City has scored 23 goals from set-pieces as of matchday 22.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "When did Rangers manager Walter Smith make his first league appearance for Celtic?",
+"ground_truth": "Walter Smith made his first league appearance for Celtic on 25th April 1970 in a 2-1 win over St. Mirren.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did Rob White make the most assists in a single Premier League campaign?",
+"ground_truth": "Rob White made a career-high 8 assists in the 1998-1999 Premier League season with West Ham United.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Fleetwood Town player scored the most goals in a single League One season?",
+"ground_truth": "James Vaughan scored 28 goals in the 2013-14 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which country's national team did Ange Postecoglou manage when they reached the knockout stage of the 2014 FIFA World Cup for the first time?",
+"ground_truth": "Ange Postecoglou managed Australia when they reached the Round of 16 at the 2014 FIFA World Cup.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which team did Craig Bellamy score the most goals against in the 2004 UEFA Champions League?",
+"ground_truth": "Craig Bellamy scored 3 goals against Real Madrid in the 2004 UEFA Champions League.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "Which Holders Rangers player holds the record for the most assists in a single season?",
+"ground_truth": "James Tavernier holds the record for the most assists (16) in a single season for Holders Rangers in the Scottish Premiership.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did George Broadbent score the most league goals for Aston Villa?",
+"ground_truth": "George Broadbent scored a career-high 20 league goals for Aston Villa during the 1958-1959 season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+"question": "In which season did Carles Minarro Garcia score the most goals in La Liga for Valencia CF?",
+"ground_truth": "Carles Minarro Garcia scored a career-high of 13 goals for Valencia CF in the 2006-2007 La Liga season.",
+"generated_answer": "API error: Unable to generate answer.",
+"bleu_score": 0,
+"rouge_score": {
+    "rouge-1": 0.0,
+    "rouge-2": 0.0,
+    "rouge-L": 0.0
+},
+"f1_score": 0
+},
+{
+    "question": "Which Labour Party leader was the youngest when he took office?",
+    "answer": "Jeremy Corbyn became the Labour leader in 2015 at the age of 67."
+},
+{
+    "question": "In which season did Airbus score the most goals in a single Ligue 2 match?",
+    "answer": "Airbus scored 6 goals against Clermont Foot in the 2019-2020 season."
+},
+{
+    "question": "In which season did Kevin Nisbet score his first career hat-trick in the Scottish Premiership?",
+    "answer": "Kevin Nisbet scored his first career hat-trick in the Scottish Premiership on 22 May 2021 against Ross County."
+},
+{
+    "question": "In which season did Rotherham United record the most goals scored in a single league match?",
+    "answer": "In the 2014-15 Championship season, Rotherham United scored 7 goals against Ipswich Town."
+},
+{
+    "question": "Which Welsh international defender scored the fastest own goal in Premier League history within 2 minutes and 24 seconds?",
+    "answer": "Ben Davies scored an own goal against Tottenham Hotspur in 2 minutes and 24 seconds, making it the fastest own goal in Premier League history."
+},
+{
+    "question": "Which Welsh international striker holds the record for the most goals in a single FAW European Qualifiers campaign?",
+    "answer": "Gareth Bale holds the record with 11 goals in the 2013-2014 campaign."
+},
+{
+    "question": "In which year did U win their first major trophy?",
+    "answer": "U won their first major trophy in 1997, when they lifted the FA Cup."
+},
+{
+    "question": "How many goals did Geoffroy Bony score for Swansea City in the English Premier League during the 2015-2016 season?",
+    "answer": "Geoffroy Bony scored 12 goals for Swansea City in the English Premier League during the 2015-2016 season."
+},
+{
+    "question": "Which former Ipswich Town player scored the most goals in a single season?",
+    "answer": "Darren Bent scored 24 goals in the 2002-2003 season."
+},
+{
+    "question": "Which team holds the record for the most goals scored in a single Mid-Ulster Cup match?",
+    "answer": "Portadown FC scored 12 goals against Lurgan Town in the 2001-2002 season."
+},
+{
+    "question": "Which Munich club has the highest average attendance in a single season in the Bundesliga?",
+    "answer": "Bayern Munich had an average attendance of 75,024 during the 2015-2016 season."
+},
+{
+    "question": "Which Crues player scored the most goals in a single season during the 1950s?",
+    "answer": "Jimmy McAlinden scored 29 goals in the 1957-1958 season."
+},
+{
+    "question": "Which Glasgow City player scored the most goals in the Scottish Women's Premier League in a single season?",
+    "answer": "Leanne Crichton holds the record with 27 goals in the 2014-2015 season."
+},
+{
+    "question": "Which player holds the record for most goals scored in a single Scottish Cup match?",
+    "answer": "Bobby Templeton scored a record 7 goals for Celtic against East Stirlingshire in 1955."
+},
+{
+    "question": "Which Championship club has the record for the most goals scored in a single league season?",
+    "answer": "Queens Park Rangers scored 103 goals in the 1947-48 season."
+},
+{
+    "question": "Which team did Byron Webster make his professional debut for in the Championship?",
+    "answer": "Bristol City"
+},
+{
+    "question": "Which MLS team did Duane Holmes make the most assists for in a single season?",
+    "answer": "Duane Holmes made a career-high 9 assists for the Colorado Rapids in the 2019 MLS season."
+},
+{
+    "question": "Which Bournemouth player scored the most goals in a single Premier League season?",
+    "answer": "Josh King holds the record with 16 goals in the 2015-16 season."
+},
+{
+    "question": "In which year did Richard Montague make his professional debut for Manchester United?",
+    "answer": "Richard Montague made his professional debut for Manchester United in 1976."
+},
+{
+    "question": "Which team did Ronan Hale make his professional debut for and in which year?",
+    "answer": "Ronan Hale made his professional debut for Dundalk F.C. in 2015."
+},
+{
+    "question": "Which team did Conor Bradley make his professional debut for in the EFL Championship?",
+    "answer": "Conor Bradley made his professional debut for Blackburn Rovers against Millwall in the EFL Championship on 12 March 2022."
+},
+{
+    "question": "Which team did Kevin Gonzalez Quintero make his professional debut against in the Mexican Primera División?",
+    "answer": "Santos Laguna, on May 24, 2015"
+},
+{
+    "question": "Which team has the highest number of consecutive wins in the Cymru North?",
+    "answer": "Bangor City holds the record with 11 consecutive wins during the 2015-2016 season."
+},
+{
+    "question": "Which Notts County player has scored the most goals in the FA Cup?",
+    "answer": "James Aldridge holds the record with 11 goals in the FA Cup for Notts County."
+},
+{
+    "question": "What is the name of the football club where Sheehan made the most appearances in the English Championship?",
+    "answer": "Reading FC"
+},
+{
+    "question": "What is Lewis Harrison's highest number of assists in a single season for his respective club?",
+    "answer": "Lewis Harrison had 13 assists for Swansea City during the 2019-2020 season."
+},
+{
+    "question": "Which team in the English Premier League has the highest average number of passes per game?",
+    "answer": "As of the 2021-2022 season, Manchester City averages the most passes per game (648.6)."
+},
+{
+    "question": "Which Welsh club did Rhys Hughes score a hat-trick against in the League Cup during the 1996-1997 season?",
+    "answer": "Cardiff City"
+},
+{
+    "question": "Which team did Milutin Osmajic manage to lead to their first league title in their history?",
+    "answer": "Osmajic guided Vardar to the Macedonian First League championship title in the 2000-2001 season."
+},
+{
+    "question": "Which team did Dominic Solanke score his first career hat-trick against in the English Championship?",
+    "answer": "Crystal Palace, on March 14, 2015."
+},
+{
+    "question": "Which league did Matt Bloomfield score his first professional goal in?",
+    "answer": "Matt Bloomfield scored his first professional goal in League One for Swindon Town against Hartlepool United on 17 October 2005."
+},
+{
+    "question": "Which VAR incident in the UEFA Champions League 2019-2020 resulted in the most heated arguments between players and referees?",
+    "answer": "The penalty call against Paris Saint-Germain's Marco Verratti during their match against Real Madrid on February 25, 2020, led to an intense confrontation."
+},
+{
+    "question": "In which season did Nagasato score the most goals in the J1 League?",
+    "answer": "Nagasato scored 18 goals in the 2012 J1 League season while playing for Sanfrecce Hiroshima."
+},
+{
+    "question": "Which Sky commentator holds the record for most Premier League goals scored by a player while being covered by him?",
+    "answer": "Alan Shearer holds the Premier League record of 260 goals."
+},
+{
+    "question": "Which Finnish goalkeeper holds the record for most clean sheets in a single Champions League campaign?",
+    "answer": "Anssi Jaakkola held the record with 11 clean sheets for Ajax Amsterdam in the 1994-95 campaign."
+},
+{
+    "question": "In which year did Livingston F.C. first join the Scottish Professional Football League?",
+    "answer": "Livingston F.C. joined the Scottish Professional Football League in 1995."
+},
+{
+    "question": "Who was Sheffield United's top goalscorer during their 2020/21 Premier League season?",
+    "answer": "Billy Sharp scored 11 goals for Sheffield United during the 2020/21 Premier League season."
+},
+{
+    "question": "How many goals did Ronan Hale score for his team in League One during the 2021 season?",
+    "answer": "Ronan Hale scored 12 goals for his team in League One during the 2021 season."
+},
+{
+    "question": "In what year did Aberdeen win their first major trophy in Scottish football?",
+    "answer": "Aberdeen won their first major trophy in Scottish football in 1947, when they won the Scottish Cup."
+},
+{
+    "question": "Which team did Bobby Robson manage to lead to their first FA Cup final appearance?",
+    "answer": "Ipswich Town reached their first FA Cup final in 1980-81 under Bobby Robson's management."
+},
+{
+    "question": "Which team holds the record for the most Champions League group stage wins in a single season?",
+    "answer": "Manchester City holds the record with 14 wins in the 2020-2021 season."
+},
+{
+    "question": "Which goalkeeper holds the record for the most clean sheets in the Champions League group stage?",
+    "answer": "Manuel Neuer, with a total of 40 clean sheets in the Champions League group stage."
+},
+{
+    "question": "Which Brisbane Roar player has scored the most goals in a single A-League season?",
+    "answer": "Brett Holman holds the record with 18 goals in the 2010-2011 season."
+},
+{
+    "question": "In which season did Juric make the most goals for Basel in a single league game?",
+    "answer": "Juric scored 5 goals for Basel against Thun in the Swiss Super League on March 6, 2016."
+},
+{
+    "question": "In which league did George Broadbent score the most goals in a single season?",
+    "answer": "George Broadbent scored 24 goals in the 1925-1926 English Second Division season while playing for Sunderland."
+},
+{
+    "question": "Which Leicester City player scored the most goals in a single Premier League season?",
+    "answer": "Jamie Vardy holds the record with 23 goals in the 2015-2016 season."
+},
+{
+    "question": "Which team did Omer Riza score his only goal for in the English Premier League?",
+    "answer": "Omer Riza scored his only Premier League goal for Wigan Athletic against Aston Villa in 2004."
+},
+{
+    "question": "Which Istanbul stadium hosted the 2005 UEFA Champions League Final between Liverpool and AC Milan?",
+    "answer": "The Atatürk Olympic Stadium"
+},
+{
+    "question": "How many league games did Matt Bloomfield play for Reading in the 2010-11 Championship season?",
+    "answer": "Matt Bloomfield made 39 league appearances for Reading in the 2010-11 Championship season."
+},
+{
+    "question": "How many goals did Luke Williams score in the 2018-2019 Championship season for his respective team?",
+    "answer": "Luke Williams scored 12 goals in the 2018-2019 Championship season."
+},
+{
+    "question": "Which Roma player holds the record for the most league goals in a single season?",
+    "answer": "Vincenzo Montella holds the record with 24 goals in the 2000-2001 Serie A season."
+},
+{
+    "question": "In which Istanbul Derby match did Fenerbahce score exactly 5 goals against Galatasaray?",
+    "answer": "Fenerbahce scored 5 goals against Galatasaray in a derby match on March 2, 1997."
+},
+{
+    "question": "Which African nation will finish as the top scorer in the 2026 World Cup group stage?",
+    "answer": "Senegal is projected to lead the goalscoring charts with 11 goals."
+},
+{
+    "question": "Which team scored the most goals at Wembley during the FA Cup finals?",
+    "answer": "Manchester United, with 41 goals scored between 1893 and 2021."
+},
+{
+    "question": "In which season did Nigel Clough score his only professional hat-trick in the Football League?",
+    "answer": "Nigel Clough scored a hat-trick for Mansfield Town in the 1996–97 season."
+},
+{
+    "question": "Which Aberdeen player scored the most goals in a single Scottish Premiership match at Easter Road?",
+    "answer": "Adam Rooney scored a hat-trick against Hibernian in 2015, netting 3 goals in a single game."
+},
+{
+    "question": "Which Scottish Cup match at Hampden Park had the highest attendance figure?",
+    "answer": "The record attendance for a Scottish Cup match at Hampden Park was 148,852 for the 1937 Scottish Cup Final between Rangers and Celtic."
+},
+{
+    "question": "Which Larne player holds the record for most goals scored in a single season?",
+    "answer": "Gerard McMahon scored 29 goals for Larne in the 1958-59 Irish League season."
+},
+{
+    "question": "Which club did John Mousinho score his first career hat-trick against in the Championship?",
+    "answer": "John Mousinho scored his first career hat-trick against Reading in the Championship on March 14, 2009."
+},
+{
+    "question": "Which country did Olga Ahtinen make her international debut for, and in which year?",
+    "answer": "Olga Ahtinen made her international debut for Finland in 2002."
+},
+{
+    "question": "Which Derry City player holds the record for most goals in a single league season?",
+    "answer": "Rory Patterson holds the record with 18 goals in the 2006 Irish Premier League season."
+},
+{
+    "question": "Which Scottish Premiership club holds the record for the most clean sheets in a single season?",
+    "answer": "Celtic, under manager Neil Lennon, set the record with 25 clean sheets during the 2015-2016 season."
+},
+{
+    "question": "Which Spurs player scored the most goals from set-pieces in a single season?",
+    "answer": "Robert Soldado holds the record, scoring 10 goals from set-pieces in the 2014-2015 season."
+},
+{
+    "question": "Which Brazilian player holds the record for the most goals scored in a single Copa América tournament?",
+    "answer": "Neymar scored 6 goals in 2011."
+},
+{
+    "question": "In which season did Nikki Doucet score the most goals for Crystal Palace Women in a single match?",
+    "answer": "Nikki Doucet scored 5 goals for Crystal Palace Women against Millwall Lionesses in the FA WSL on October 23, 2021."
+},
+{
+    "question": "Which Dutch team scored the most goals in a single Eredivisie match with Donyell Malen on the pitch?",
+    "answer": "PSV Eindhoven scored 7 goals against NEC on March 5, 2023, with Donyell Malen contributing 2 goals and 1 assist."
+},
+{
+    "question": "Which football club did Charlie Methven serve as chief executive before joining Bournemouth?",
+    "answer": "Charlie Methven was the chief executive of Coventry City before joining Bournemouth."
+},
+{
+    "question": "Who scored the most goals per game on average for Barcelona in the 1999–2000 season?",
+    "answer": "Ronaldo de Lima scored 1.06 goals per game."
+},
+{
+    "question": "In which English Premier League season did Jim Magilton score the most goals for Fulham?",
+    "answer": "Magilton scored 8 goals in the 2005-06 season for Fulham."
+},
+{
+    "question": "Which team did Michael O'Neill lead to their first major international tournament appearance?",
+    "answer": "Northern Ireland, at Euro 2016."
+},
+{
+    "question": "In which season did Eric Steele keep the most clean sheets in the FA Cup for Manchester United?",
+    "answer": "Eric Steele kept a record-breaking 12 clean sheets in the FA Cup during the 1982-1983 season."
+},
+{
+    "question": "Which team did Harry Owen score his first goal against in the 2021-22 Premier League?",
+    "answer": "Harry Owen scored his first Premier League goal against Wolverhampton Wanderers on 24th October 2021."
+},
+{
+    "question": "Which player holds the record for most goals scored in a single European Championship qualifying campaign for the Republic of Ireland?",
+    "answer": "Robbie Keane scored 14 goals during the 2012 qualifiers."
+},
+{
+    "question": "Which player holds the record for the most assists in a single Champions League campaign?",
+    "answer": "Lionel Messi holds the record with 16 assists during the 2011-2012 season."
+},
+{
+    "question": "Which player has scored the most goals for Reading in a single Premier League season?",
+    "answer": "Shane Long holds the record with 14 goals in the 2005-2006 season."
+},
+{
+    "question": "Which team did Connor Roberts make his professional debut against in the Championship?",
+    "answer": "Connor Roberts made his professional debut for Swansea City against Rotherham United in the Championship on August 7, 2015."
+},
+{
+    "question": "Which manager led Ballymena United to their last league title in the 2018/19 season?",
+    "answer": "David Jeffrey was the manager who led Ballymena United to the league title in the 2018/19 season."
+},
+{
+    "question": "Which player holds the record for the most assists in a single Ligue 1 season for PSG?",
+    "answer": "Thomas Meunier holds the record with 16 assists in the 2018-2019 season."
+},
+{
+    "question": "What is the exact number of yellow cards Mat Sadler received in the Championship during the 2008-2009 season?",
+    "answer": "Mat Sadler received 10 yellow cards in the Championship during the 2008-2009 season."
+},
+{
+    "question": "In which season did Mohamed Salah score the most goals in the UEFA Champions League group stage?",
+    "answer": "Mohamed Salah scored a total of 7 goals in the 2017-2018 UEFA Champions League group stage for Liverpool FC."
+},
+{
+    "question": "Which player scored the most goals for Haverfordwest County in a single league season?",
+    "answer": "The record for most goals in a single league season by a Haverfordwest County player is 23, which was scored by Martin Davies in the 1994-1995 season."
+},
+{
+    "question": "What is the highest number of goals Jim Ratcliffe scored in a single FA Cup match?",
+    "answer": "Jim Ratcliffe scored a hat-trick with 3 goals against Crystal Palace in the FA Cup quarter-finals in 1992."
+},
+{
+    "question": "Which Carrick Rangers player holds the record for the most goals in a single Irish Cup campaign?",
+    "answer": "Johnny McMurray scored a record 11 goals for Carrick Rangers in the Irish Cup during the 1984-85 season."
+},
+{
+    "question": "Which Manchester United Women's player registered the most assists in the FA WSL 1 during the 2019-2020 season?",
+    "answer": "Alex Greenwood made a total of 9 assists for Manchester United Women in the FA WSL 1 2019-2020 season."
+},
+{
+    "question": "What is the record for the most goals scored in a single Football League One game by Doncaster Rovers?",
+    "answer": "On 15 March 2008, Doncaster Rovers scored 11 goals against Crewe Alexandra in a Football League One game."
+},
+{
+    "question": "Which club's players scored the most goals in a single Premier League season while wearing the number 9 shirt, and how many goals were scored?",
+    "answer": "Galgorm's Andy Cole scored 34 goals during the 1993-1994 season while wearing the number 9 shirt."
+},
+{
+    "question": "What was the attendance record for a Southend home game in the League One era?",
+    "answer": "The highest attendance at Roots Hall during Southend's time in League One was 11,146, recorded against Oldham Athletic in 2016."
+},
+{
+    "question": "In which season did Phil Parkinson's Bolton Wanderers finish highest in the English Championship table?",
+    "answer": "During the 2001-2002 season, Bolton Wanderers finished 2nd in the English Championship under Phil Parkinson."
+},
+{
+    "question": "In which European country did Simone Magill start her senior club career?",
+    "answer": "Simone Magill began her senior club career in Germany with 1. FFC Turbine Potsdam."
+},
+{
+    "question": "Which team did Milos Kerkez make his debut for in the Austrian Bundesliga?",
+    "answer": "Wacker Innsbruck"
+},
+{
+    "question": "In which FA Cup match did Amy Goddard score the fastest goal in just 15 seconds?",
+    "answer": "Amy Goddard scored the fastest goal in FA Cup history in just 15 seconds for Millwall Lionesses against Birmingham City Ladies in 2012."
+},
+{
+    "question": "Which team in the Premier League has scored the most goals from set-pieces in the 2021-2022 season?",
+    "answer": "Manchester City has scored 23 goals from set-pieces as of matchday 22."
+},
+{
+    "question": "When did Rangers manager Walter Smith make his first league appearance for Celtic?",
+    "answer": "Walter Smith made his first league appearance for Celtic on 25th April 1970 in a 2-1 win over St. Mirren."
+},
+{
+    "question": "In which season did Rob White make the most assists in a single Premier League campaign?",
+    "answer": "Rob White made a career-high 8 assists in the 1998-1999 Premier League season with West Ham United."
+},
+{
+    "question": "Which Fleetwood Town player scored the most goals in a single League One season?",
+    "answer": "James Vaughan scored 28 goals in the 2013-14 season."
+},
+{
+    "question": "Which country's national team did Ange Postecoglou manage when they reached the knockout stage of the 2014 FIFA World Cup for the first time?",
+    "answer": "Ange Postecoglou managed Australia when they reached the Round of 16 at the 2014 FIFA World Cup."
+},
+{
+    "question": "Which team did Craig Bellamy score the most goals against in the 2004 UEFA Champions League?",
+    "answer": "Craig Bellamy scored 3 goals against Real Madrid in the 2004 UEFA Champions League."
+},
+{
+    "question": "Which Holders Rangers player holds the record for the most assists in a single season?",
+    "answer": "James Tavernier holds the record for the most assists (16) in a single season for Holders Rangers in the Scottish Premiership."
+},
+{
+    "question": "In which season did George Broadbent score the most league goals for Aston Villa?",
+    "answer": "George Broadbent scored a career-high 20 league goals for Aston Villa during the 1958-1959 season."
+},
+{
+    "question": "In which season did Carles Minarro Garcia score the most goals in La Liga for Valencia CF?",
+    "answer": "Carles Minarro Garcia scored a career-high of 13 goals for Valencia CF in the 2006-2007 La Liga season."
+}
+]
