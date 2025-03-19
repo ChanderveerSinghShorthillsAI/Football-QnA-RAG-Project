@@ -66,8 +66,8 @@ class FAISSIndexer:
 
 if __name__ == "__main__":
     indexer = FAISSIndexer(
-        chunked_file="/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_chunks.json",
-        vector_db_path="/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/faiss_index",
+        chunked_file="/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_chunks/football_chunks.json",
+        vector_db_path="/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/faiss/faiss_index",
         use_openai=False
     )
     indexer.create_faiss_index()

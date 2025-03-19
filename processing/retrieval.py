@@ -8,9 +8,9 @@ from sentence_transformers import SentenceTransformer
 from langchain_community.llms import HuggingFaceHub
 
 class FootballQnA:
-    VECTOR_DB_PATH = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/faiss_index"
-    CHUNKED_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_chunks.json"
-    LOG_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/qna_logs.json"
+    VECTOR_DB_PATH = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/faiss/faiss_index"
+    CHUNKED_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_chunks/football_chunks.json"
+    LOG_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/QnA_logs/qna_logs.json"
     
     def __init__(self):
         self.huggingface_api_key = os.getenv("HUGGINGFACE_API_KEY")

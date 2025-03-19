@@ -8,8 +8,8 @@ from langchain_huggingface import HuggingFaceEndpoint
 from sentence_transformers import SentenceTransformer, util
 
 class FootballTestCaseGenerator:
-    ARTICLES_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_articles.json"
-    TEST_CASES_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_test_cases.json"
+    ARTICLES_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_articles/football_articles.json"
+    TEST_CASES_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_test_cases/football_test_cases.json"
     HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")
     MODEL_REPO_ID = "mistralai/Mistral-7B-Instruct-v0.2"
     TEMPERATURE = 0.85

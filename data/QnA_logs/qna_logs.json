@@ -223,5 +223,65 @@
         "timestamp": "2025-03-19T13:36:55.200218",
         "question": "who is the top scorer in manchaster united",
         "generated_answer": "Wayne Rooney is Manchester United's record goalscorer. However, the current top scorer for Manchester United in the Premier League is Bruno Fernandes with 12 goals."
+    },
+    {
+        "timestamp": "2025-03-19T14:35:21.989194",
+        "question": "who is the top scorer of barcelona",
+        "generated_answer": "I don't have enough information. The article discusses Neymar's performance for PSG, not Barcelona."
+    },
+    {
+        "timestamp": "2025-03-19T14:35:35.092658",
+        "question": "who is the top scorer of liverpool",
+        "generated_answer": "Mohamed Salah is currently the top scorer for Liverpool in the 2022-23 Premier League season, based on the provided articles."
+    },
+    {
+        "timestamp": "2025-03-19T14:36:46.409881",
+        "question": "who is lamine yamal",
+        "generated_answer": "17-year-old football player who has contributed almost 60 goals for club and country. He is a key player for Barcelona and a Ballon d'Or contender. He has been voted as one of the team captains and became the club's outright skipper when others were injured. Raphinha is his main mentor in the squad, and he scored a spectacular goal against Benfica in the Champions League. Barcelona advanced to the quarter-finals."
+    },
+    {
+        "timestamp": "2025-03-19T14:37:38.938329",
+        "question": "who is rahul gandhi",
+        "generated_answer": "Rahul Gandhi is an Indian footballer who believes in inspiring the younger generation to pursue a career in football. He has represented India and wants to change the mindset that education should come before sports. The articles do not provide information on Rahul Gandhi being a politician or having any relation to Indian politics."
+    },
+    {
+        "timestamp": "2025-03-19T14:38:22.599769",
+        "question": "how to study to get more marks",
+        "generated_answer": "I don't have enough information. However, Kego and Menon discuss the importance of education and following dreams. They also mention the importance of hard work and improvement, which could be applied to studying to get better marks."
+    },
+    {
+        "timestamp": "2025-03-19T14:38:56.579859",
+        "question": "how to study to get more marks",
+        "generated_answer": "I don't have enough information. However, Kego and Menon discuss the importance of education and following dreams. They also mention the importance of hard work and improvement, which could be applied to studying to get better marks."
+    },
+    {
+        "timestamp": "2025-03-19T14:39:16.868805",
+        "question": "what is the national capital of france",
+        "generated_answer": "Paris St-Germain are from the city of Paris, which is the capital of France."
+    },
+    {
+        "timestamp": "2025-03-19T14:39:33.009305",
+        "question": "what is the national capital of india",
+        "generated_answer": "I don't have enough information."
+    },
+    {
+        "timestamp": "2025-03-19T14:41:19.055292",
+        "question": "who is the top scorer of liverpool",
+        "generated_answer": "Mohamed Salah is currently the top scorer for Liverpool in the 2022-23 Premier League season, based on the provided articles."
+    },
+    {
+        "timestamp": "2025-03-19T14:41:40.670699",
+        "question": "who is lamine yamal",
+        "generated_answer": "17-year-old football player who has contributed almost 60 goals for club and country. He is a key player for Barcelona and a Ballon d'Or contender. He has been voted as one of the team captains and became the club's outright skipper when others were injured. Raphinha is his main mentor in the squad, and he scored a spectacular goal against Benfica in the Champions League. Barcelona advanced to the quarter-finals."
+    },
+    {
+        "timestamp": "2025-03-19T14:42:06.380848",
+        "question": "what is the capital of india ",
+        "generated_answer": "I don't have enough information."
+    },
+    {
+        "timestamp": "2025-03-19T14:44:28.632693",
+        "question": "who is raphinia",
+        "generated_answer": "Raphinha is a Brazilian professional footballer who currently plays for Barcelona in La Liga. He started his career in the Brazilian lower leagues and had to prove himself in Europe from the bottom up. His journey to Barcelona is marked by resilience, discipline, and a strong desire to succeed."
     }
 ]

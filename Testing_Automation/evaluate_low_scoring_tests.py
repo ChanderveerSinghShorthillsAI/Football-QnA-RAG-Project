@@ -7,9 +7,9 @@ from sentence_transformers import SentenceTransformer
 from langchain_huggingface import HuggingFaceEndpoint
 
 class FootballEvaluation:
-    TEST_CASES_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_test_cases.json"
-    EVALUATION_RESULTS_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/evaluation_results.json"
-    LOW_SCORE_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/low_scoring_answers.json"
+    TEST_CASES_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_test_cases/football_test_cases.json"
+    EVALUATION_RESULTS_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/evaluation_results/evaluation_results.json"
+    LOW_SCORE_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/low_scoring_answers/low_scoring_answers.json"
 
     def __init__(self):
         self.huggingface_api_key = os.getenv("HUGGINGFACE_API_KEY")

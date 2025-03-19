@@ -53,8 +53,8 @@ class ArticleChunker:
             print(f"Error saving chunked data: {e}")
 
 if __name__ == "__main__":
-    json_file = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_articles.json"
-    chunked_file = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_chunks.json"
+    json_file = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_articles/football_articles.json"
+    chunked_file = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_chunks/football_chunks.json"
     
     chunker = ArticleChunker(json_file, chunked_file)
     chunker.chunk_articles()

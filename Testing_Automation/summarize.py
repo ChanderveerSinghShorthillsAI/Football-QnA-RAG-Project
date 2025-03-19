@@ -50,8 +50,8 @@ class EvaluationAnalyzer:
         print(f" Low-scoring answers saved to `{self.bad_answers_file}`")
 
 if __name__ == "__main__":
-    results_file = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/evaluation_results.json"
-    bad_answers_file = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/low_scoring_answers_after_enhancement.json"
+    results_file = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/evaluation_results/evaluation_results.json"
+    bad_answers_file = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/low_scoring_answers/low_scoring_answers_after_enhancement.json"
     analyzer = EvaluationAnalyzer(results_file, bad_answers_file)
     analyzer.generate_summary()
 

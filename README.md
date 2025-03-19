@@ -14,52 +14,63 @@ The **Football Knowledge Q&A Chatbot** is an **AI-powered chatbot** designed to 
  **Interactive Streamlit UI** – Web interface for easy query submission and response retrieval.  
  **Robust Logging System** – Logs user queries and chatbot responses for tracking and improvement.  
 
----
 
-##  Project Structure  
+
 
 ```
+## Project Structure
+
+
 Python Data Scrapping Project
-├─ Output                   # Stores evaluation summaries and performance reports
+├─ Output                                            # Stores evaluation summaries and performance reports
 │  └─ output.txt
 ├─ README.md
-├─ Testing_Automation        # Scripts for evaluation, optimization, and summarization
+├─ Testing_Automation                                # Scripts for evaluation, optimization, and summarization
 │  ├─ __init__.py
-│  ├─ evaluate.py           # Evaluates chatbot responses using BLEU, ROUGE, and F1-score
-│  ├─ evaluate_low_scoring_tests.py     # Re-evaluates incorrect answers to improve accuracy
-│  └─ summarize.py            # Summarizes evaluation results before and after optimization
+│  ├─ evaluate.py                                    # Evaluates chatbot responses using BLEU, ROUGE, and F1-score
+│  ├─ evaluate_low_scoring_tests.py                  # Re-evaluates incorrect answers to improve accuracy
+│  └─ summarize.py                                   # Summarizes evaluation results before and after optimization
 ├─ UI
 │  ├─ __pycache__
 │  │  └─ test_faiss.cpython-310.pyc
-│  └─ app.py           # Streamlit-based UI for the chatbot
+│  └─ app.py                                         # Streamlit-based UI for the chatbot
 ├─ __init__.py
-├─ data        # Stores raw articles, processed chunks, vectors, test cases, logs
-│  ├─ evaluation_result_before_enhancement.json   # evaluation result before optimisation in prompt
-│  ├─ evaluation_results.json  # evaluation result after optimisation in prompt
-│  ├─ faiss_index              # stores the vector embedding of the chunks
-│  ├─ faiss_index.py
-│  ├─ faiss_vector.json        # visual representation of the embeddings 
-│  ├─ football_articles copy.json  
-│  ├─ football_articles.csv    
-│  ├─ football_articles.json     # Scraped football articles 
-│  ├─ football_chunks.json       # Stored the chunks of the data
-│  ├─ football_test_cases.json   # generated test cases of the data
-│  ├─ low_scoring_answers.json   # low scoring test cases before enhancement
-│  ├─ low_scoring_answers_after_enhancement.json  # low scoring test cases after enhancement
-│  ├─ qna_logs.json        #logs stored when the user interacts with the model
-│  ├─ rough.json 
-│  └─ rough.py
+├─ data                                              # Stores raw articles, processed chunks, vectors, test cases, logs
+│  ├─ QnA_logs
+│  │  └─ qna_logs.json                               #logs stored when the user interacts with the model
+│  ├─ evaluation_results
+│  │  ├─ evaluation_result_before_enhancement.json   # evaluation result before optimisation in prompt
+│  │  └─ evaluation_results.json                     # evaluation result after optimisation in prompt
+│  ├─ faiss
+│  │  ├─ faiss_index                                 # stores the vector embedding of the chunks
+│  │  ├─ faiss_index.py
+│  │  └─ faiss_vector.json                           # visual representation of the embeddings 
+│  ├─ football_articles
+│  │  ├─ football_articles copy.json
+│  │  ├─ football_articles.csv
+│  │  └─ football_articles.json                      # Scraped football articles 
+│  ├─ football_chunks
+│  │  └─ football_chunks.json                        # Stored the chunks of the data
+│  ├─ football_test_cases
+│  │  └─ football_test_cases.json                    # generated test cases of the data
+│  ├─ low_scoring_answers
+│  │  ├─ low_scoring_answers.json                    # low scoring test cases before enhancement
+│  │  └─ low_scoring_answers_after_enhancement.json  # low scoring test cases after enhancement
+│  └─ rough
+│     ├─ rough.json
+│     └─ rough.py
 ├─ processing
 │  ├─ __init__.py
 │  ├─ __pycache__
 │  │  └─ retrieval.cpython-310.pyc
-│  ├─ chunking.py     # Splits articles into smaller text chunks
-│  ├─ generate_test_cases.py       # Generates test cases for evaluation
-│  ├─ retrieval.py     # Retrieves relevant chunks from FAISS for a query
-│  └─ vectorization.py    # Converts text into FAISS embeddings
+│  ├─ chunking.py                                    # Splits articles into smaller text chunks
+│  ├─ generate_test_cases.py                         # Generates test cases for evaluation
+│  ├─ retrieval.py                                   # Retrieves relevant chunks from FAISS for a query
+│  └─ vectorization.py                               # Converts text into FAISS embeddings
+├─ requirment.txt                                       
 └─ scrapers
-│   └─ bbc_scraper.py   # Scrapes football news articles from BBC
-├─ requirment.txt
+   └─ bbc_scraper.py                                 # Scrapes football news articles from BBC
+
 ```
 
 ---

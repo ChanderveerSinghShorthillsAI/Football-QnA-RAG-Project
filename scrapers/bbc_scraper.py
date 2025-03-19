@@ -113,7 +113,7 @@ class BBCFootballScraper:
 if __name__ == "__main__":
     scraper = BBCFootballScraper(limit=None)  # Scrape all articles
     articles = scraper.scrape_articles()
-    scraper.save_articles("/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_articles.json")
+    scraper.save_articles("/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_articles/football_articles.json")
 
 
 

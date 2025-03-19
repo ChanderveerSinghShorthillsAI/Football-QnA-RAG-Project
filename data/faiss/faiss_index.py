@@ -2,8 +2,8 @@ import faiss
 import json
 import numpy as np
 
-VECTOR_DB_PATH = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/faiss_index"
-OUTPUT_JSON = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/faiss_vector.json"
+VECTOR_DB_PATH = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/faiss/faiss_index"
+OUTPUT_JSON = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/faiss/faiss_vector.json"
 
 # Load FAISS index
 index = faiss.read_index(VECTOR_DB_PATH)
