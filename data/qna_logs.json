@@ -123,5 +123,105 @@
         "timestamp": "2025-03-17T10:55:57.585393",
         "question": "When is Livingston expected to finalize their new investment deal?",
         "generated_answer": "Based on the provided articles, David Martindale, Livingston's manager, has revealed that a deal is close to being finalized for new investment in the club. The articles do not specify a timeframe for when this deal is expected to be completed."
+    },
+    {
+        "timestamp": "2025-03-18T11:07:11.999657",
+        "question": "which club did John White score his first professional goal against?",
+        "generated_answer": "The article does not provide information on which club John White scored his first professional goal against."
+    },
+    {
+        "timestamp": "2025-03-18T11:08:42.722375",
+        "question": "Which Gillingham player holds the record for the most goals scored in a single league season?",
+        "generated_answer": "I don't have enough information."
+    },
+    {
+        "timestamp": "2025-03-18T11:08:54.087181",
+        "question": "Which Barcelona player holds the record for the most assists in a single LaLiga season?",
+        "generated_answer": "I don't have enough information. The provided articles do not mention any specific Barcelona player holding the record for the most assists in a single LaLiga season."
+    },
+    {
+        "timestamp": "2025-03-18T11:09:44.572783",
+        "question": "who is barcelona top scorer",
+        "generated_answer": "I don't have enough information. The articles do not provide information about Barcelona's top scorer."
+    },
+    {
+        "timestamp": "2025-03-18T11:10:03.521061",
+        "question": "who is laliga top scorer",
+        "generated_answer": "I don't have enough information. The articles provided do not mention the LaLiga top scorer."
+    },
+    {
+        "timestamp": "2025-03-18T11:10:14.058057",
+        "question": "who is laliga top scorer",
+        "generated_answer": "I don't have enough information. The articles provided do not mention the LaLiga top scorer."
+    },
+    {
+        "timestamp": "2025-03-18T11:11:11.609908",
+        "question": "who is barcelona top scorer",
+        "generated_answer": "I don't have enough information. The articles are about a player named Mbappé who currently plays for PSG, not Barcelona."
+    },
+    {
+        "timestamp": "2025-03-18T11:12:28.105616",
+        "question": "who is tthe top scorer in barcelona",
+        "generated_answer": "Raphinha is currently the top scorer for Barcelona in the given articles with a total of 23 goals from all competitions."
+    },
+    {
+        "timestamp": "2025-03-18T11:12:56.719257",
+        "question": "who is tthe top scorer in real madrid",
+        "generated_answer": "I don't have enough information from the articles to determine the top scorer in Real Madrid."
+    },
+    {
+        "timestamp": "2025-03-18T11:13:12.019404",
+        "question": "who is tthe top scorer in barcelona",
+        "generated_answer": "Raphinha is currently the top scorer for Barcelona in the given articles with a total of 23 goals from all competitions."
+    },
+    {
+        "timestamp": "2025-03-18T11:13:28.884096",
+        "question": "who is tthe top scorer in liverpool",
+        "generated_answer": "Mohamed Salah has scored 16 goals in the Champions League and 8 goals in the Premier League for Liverpool this season, making a total of 24 goals."
+    },
+    {
+        "timestamp": "2025-03-18T12:26:17.194946",
+        "question": "who is the top scorer in barcelona",
+        "generated_answer": "The article does not mention the top scorer for Barcelona. It only talks about Neymar's performance for Paris Saint-Germain."
+    },
+    {
+        "timestamp": "2025-03-18T12:26:52.074979",
+        "question": "who is the top scorer in liverpool",
+        "generated_answer": "Mohamed Salah is the top scorer for Liverpool in the current season, with the articles mentioning his phenomenal performance for the team."
+    },
+    {
+        "timestamp": "2025-03-19T13:13:43.262966",
+        "question": "who is the top scorer of barcelona",
+        "generated_answer": "### Football Knowledge Assistant\n\nYou are an expert in football. Answer the following question **ONLY using the provided articles**.\n- If the answer is **not found**, respond with: **\"I don't have enough information.\"**\n- Keep your response **concise** and **factual**.\n- If multiple players/teams are mentioned, compare them **briefly**.\n\n####  Articles:\nthe ball more, enjoys a greater freedom to receive passes and participate in the build-up but with more chances to finish. He is enjoying talking about tactics, about how to improve and about understanding the game. He is now the complete opposite of how he was perceived by many at Barcelona. And the goals have flowed. His tally of 23 coming from all angles. This season, he has scored 16 in Ligue 1 (eight with his right foot, six with the left, two headers), six in the Champions League (four\n\nNow - with 22 goals in his past 16 games - he is Europe's most in-form striker, drawing comparison to the likes of Lionel Messi, who scored 13 goals in four games in March 2012, and Cristiano Ronaldo, who hit 11 goals in four games in May 2011. He is also viewed as PSG's trump card in their quest for a first Champions League trophy. Since the start of December, he has scored more goals than any other player in the big five European leagues. So, as PSG go into Tuesday's Champions League last-16\n\nthey also lost 2-0 and 3-1 to Liverpool and Milan respectively. Barca came out the right side of nine-goal and five-goal thrillers against Benfica and Dortmund, while also defeating Bayern 4-1, and 13 goals were scored in City's defeats by Sporting, Juventus and PSG. With more games overall, there are also more opportunities for individuals to make their mark. Stars like Erling Haaland (47 goals in his Champions League career) and Kylian Mbappe (51 goals), will aim to close in on milestones set\n\nbut with more chances to finish. He is enjoying talking about tactics, about how to improve and about understanding the game. He is now the complete opposite of how he was perceived by many at Barcelona. And the goals have flowed, his tally of 27 coming from all angles. This season, he has scored 20 in Ligue 1, six in the Champions League and one in the Nations League. It has not all been smooth sailing for Dembele in Paris though. Despite his quiet facade, he still has fire inside. In\n\ncurrently Europe's most in-form striker, drawing comparison to the likes of Lionel Messi, who scored 13 goals in four games in March 2012, and Cristiano Ronaldo, who hit 11 goals in four games in May 2011. He is also being seen as PSG's trump card in their quest for a first Champions League trophy. The 27-year-old has scored 18 goals in his past 11 appearances for PSG in all competitions and since the start of December, has scored more goals (18) than any other player in the big five European\n\n####  Question: who is the top scorer of barcelona\n\n **Answer:**\nThe provided articles do not mention the top scorer of Barcelona."
+    },
+    {
+        "timestamp": "2025-03-19T13:13:55.656524",
+        "question": "who is the top scorer of liverpool",
+        "generated_answer": "### Football Knowledge Assistant\n\nYou are an expert in football. Answer the following question **ONLY using the provided articles**.\n- If the answer is **not found**, respond with: **\"I don't have enough information.\"**\n- Keep your response **concise** and **factual**.\n- If multiple players/teams are mentioned, compare them **briefly**.\n\n####  Articles:\nwithout it, runs all day and has loads of room to grow. It is not surprising that Liverpool have been linked to him. Declan Rice (Arsenal): People gave him stick for celebrating his equaliser against Manchester United. When he doesn't score people say he doesn't score enough - but when he does he gets stick for celebrating! He is growing into a really talented 'number eight'. Especially as Arsenal don't have a number nine, he runs into great pockets and got beyond the attackers for his goal.\n\nI think you're never going to get a better chance. \"Liverpool right now are arguably the best team in the world. It's almost beyond his wildest dreams. \"When he came here, following someone like Jurgen Klopp, he would've just been hoping it goes well. For him to do what he's done is absolutely phenomenal. He's been magnificent.\" Latest Liverpool news, analysis and fan views Get Liverpool news sent straight to your phone\n\n\"Liverpool are too far away. They have only lost one game all season. [The title race] is over.\" Nottingham Forest are third, four points behind Arsenal, and Chelsea another two points further back in fourth. Manchester City, who have won the past four Premier League titles, sit fifth after losing 1-0 at Nottingham Forest on Saturday. BBC Sport looks at when Liverpool could wrap up their second Premier League title - and record-equalling 20th overall. Is Salah set for greatest individual\n\nthe ball more, enjoys a greater freedom to receive passes and participate in the build-up but with more chances to finish. He is enjoying talking about tactics, about how to improve and about understanding the game. He is now the complete opposite of how he was perceived by many at Barcelona. And the goals have flowed. His tally of 23 coming from all angles. This season, he has scored 16 in Ligue 1 (eight with his right foot, six with the left, two headers), six in the Champions League (four\n\nhis best night as Liverpool manager so far - in an impressive campaign to date in which he has won 29 of his 37 games in charge and only lost three. \"I think we had some big nights here already but to reach a final should also be special, and that is what it is,\" he said. \"So in that perspective it has been the most special evening.\" Jose Mourinho won the Carling Cup (right) in his first season as Chelsea boss and months later added the Premier League (centre) With a six-point lead at the top\n\n####  Question: who is the top scorer of liverpool\n\n **Answer:**\n Mohamed Salah is the current top scorer of Liverpool with 23 goals this season."
+    },
+    {
+        "timestamp": "2025-03-19T13:14:14.084929",
+        "question": "who is the top scorer of real madrid",
+        "generated_answer": "### Football Knowledge Assistant\n\nYou are an expert in football. Answer the following question **ONLY using the provided articles**.\n- If the answer is **not found**, respond with: **\"I don't have enough information.\"**\n- Keep your response **concise** and **factual**.\n- If multiple players/teams are mentioned, compare them **briefly**.\n\n####  Articles:\nNow - with 22 goals in his past 16 games - he is Europe's most in-form striker, drawing comparison to the likes of Lionel Messi, who scored 13 goals in four games in March 2012, and Cristiano Ronaldo, who hit 11 goals in four games in May 2011. He is also viewed as PSG's trump card in their quest for a first Champions League trophy. Since the start of December, he has scored more goals than any other player in the big five European leagues. So, as PSG go into Tuesday's Champions League last-16\n\ncurrently Europe's most in-form striker, drawing comparison to the likes of Lionel Messi, who scored 13 goals in four games in March 2012, and Cristiano Ronaldo, who hit 11 goals in four games in May 2011. He is also being seen as PSG's trump card in their quest for a first Champions League trophy. The 27-year-old has scored 18 goals in his past 11 appearances for PSG in all competitions and since the start of December, has scored more goals (18) than any other player in the big five European\n\nthe ball more, enjoys a greater freedom to receive passes and participate in the build-up but with more chances to finish. He is enjoying talking about tactics, about how to improve and about understanding the game. He is now the complete opposite of how he was perceived by many at Barcelona. And the goals have flowed. His tally of 23 coming from all angles. This season, he has scored 16 in Ligue 1 (eight with his right foot, six with the left, two headers), six in the Champions League (four\n\ngoals), will aim to close in on milestones set over a long period by the likes of Cristiano Ronaldo - the competition's all-time leading scorer with 141 goals - and Lionel Messi (129 goals). The new system was also meant to offer a greater competitive balance between all the teams, with the possibility for each to play opponents of a similar level throughout the league phase. But that in itself presented several contradictions, as did the seedings. Villa's victory over Bayern came at a time\n\nin the tournament for line-breaking passes (141) by a significant margin. Fabian Ruiz (Spain) Another tournament, another Spanish midfielder to remember. Following in the long line of crafty manipulators, Ruiz put together a superbly complete tournament at the heart of Spainâs midfield. Along with being directly involved in four goals at Euro 2024 (two goals, two assists), he recovered possession more times overall (46) and in the final third (14) than any other player. This video can not be\n\n####  Question: who is the top scorer of real madrid\n\n **Answer:**\n I don't have enough information. The articles provided do not mention Real Madrid or their top scorer."
+    },
+    {
+        "timestamp": "2025-03-19T13:30:50.946465",
+        "question": "who is the top scorer in laliga",
+        "generated_answer": "1. The article does not provide the name of the top scorer in LaLiga.\n        2. However, it does mention that Brennan Johnson is the top scorer for his team (AFC Bournemouth) in all competitions with 14 goals.\n        3. It also mentions that Erling Haaland and Kylian Mbappe are among the top scorers in the Champions League with 47 and 51 goals, respectively.\n        4. Therefore, based on the provided articles, it is not possible to determine who the top scorer in LaLiga is."
+    },
+    {
+        "timestamp": "2025-03-19T13:32:22.184936",
+        "question": "who is the top scorer in liverpool",
+        "generated_answer": "Mohamed Salah is the top scorer for Liverpool this season."
+    },
+    {
+        "timestamp": "2025-03-19T13:36:31.494078",
+        "question": "who is the top scorer in manchaster city",
+        "generated_answer": "The article does not mention the top scorer for Manchester City."
+    },
+    {
+        "timestamp": "2025-03-19T13:36:55.200218",
+        "question": "who is the top scorer in manchaster united",
+        "generated_answer": "Wayne Rooney is Manchester United's record goalscorer. However, the current top scorer for Manchester United in the Premier League is Bruno Fernandes with 12 goals."
     }
 ]

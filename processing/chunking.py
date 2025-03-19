@@ -2,45 +2,61 @@ import json
 import re
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-# File paths
-JSON_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_articles.json"
-CHUNKED_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_chunks.json"
+class ArticleChunker:
+    def __init__(self, json_file, chunked_file, chunk_size=500, chunk_overlap=50):
+        self.json_file = json_file
+        self.chunked_file = chunked_file
+        self.chunk_size = chunk_size
+        self.chunk_overlap = chunk_overlap
+        self.text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=self.chunk_size, chunk_overlap=self.chunk_overlap
+        )
 
-def clean_text(text):
-    """Remove unnecessary characters and clean text."""
-    text = re.sub(r"\s+", " ", text)  # Remove extra spaces/newlines
-    return text.strip()
+    @staticmethod
+    def clean_text(text):
+        """Remove unnecessary characters and clean text."""
+        text = re.sub(r"\s+", " ", text)  # Remove extra spaces/newlines
+        return text.strip()
 
-def chunk_articles():
-    """Load scraped articles, clean them, and split into chunks."""
-    try:
-        with open(JSON_FILE, "r", encoding="utf-8") as f:
-            articles = json.load(f)
-            print("hello");
+    def load_articles(self):
+        """Load articles from JSON file."""
+        try:
+            with open(self.json_file, "r", encoding="utf-8") as f:
+                articles = json.load(f)
+            return articles if articles else []
+        except Exception as e:
+            print(f"Error loading JSON file: {e}")
+            return []
 
+    def chunk_articles(self):
+        """Load, clean, split, and save articles into chunks."""
+        articles = self.load_articles()
         if not articles:
-            print(" No articles found in JSON file!")
+            print("No articles found in JSON file!")
             return
-
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 
         chunked_data = []
         for article in articles:
-            title = clean_text(article.get("title", "No Title"))
+            title = self.clean_text(article.get("title", "No Title"))
             url = article.get("url", "No URL")
-            content = clean_text(article.get("content", "No Content"))
+            content = self.clean_text(article.get("content", "No Content"))
 
-            chunks = text_splitter.split_text(content)
+            chunks = self.text_splitter.split_text(content)
             for chunk in chunks:
                 chunked_data.append({"title": title, "url": url, "content": chunk})
 
-        with open(CHUNKED_FILE, "w", encoding="utf-8") as f:
-            json.dump(chunked_data, f, indent=4, ensure_ascii=False)
-
-        print(f" Chunking completed! Data saved in {CHUNKED_FILE}")
-
-    except Exception as e:
-        print(f" Error: {e}")
+        try:
+            with open(self.chunked_file, "w", encoding="utf-8") as f:
+                json.dump(chunked_data, f, indent=4, ensure_ascii=False)
+            print(f"Chunking completed! Data saved in {self.chunked_file}")
+        except Exception as e:
+            print(f"Error saving chunked data: {e}")
 
 if __name__ == "__main__":
-    chunk_articles()
+    json_file = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_articles.json"
+    chunked_file = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_chunks.json"
+    
+    chunker = ArticleChunker(json_file, chunked_file)
+    chunker.chunk_articles()
+
+
