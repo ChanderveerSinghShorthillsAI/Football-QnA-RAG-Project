@@ -1,241 +1,294 @@
+# BBC Football QnA System
 
-#  Football Knowledge Q&A Chatbot
-
-The **Football Knowledge Q&A Chatbot** is an **AI-powered chatbot** designed to answer **football-related questions** using **Retrieval-Augmented Generation (RAG)**. This project scrapes football news, processes the data, retrieves relevant articles using **FAISS vector search**, and generates **fact-based** answers using **Mistral 7B**.
+A Python-based end-to-end system that scrapes BBC Football articles, chunks and vectorizes the content, stores embeddings in a FAISS vector database, and answers user questions using relevant articles with Mistral-7B from HuggingFace and OpenAI. The project includes automated evaluation of answers using RAGAs and strong testing with pytest.
 
 ---
 
-##  Key Features  
- **Real-time Football Q&A** – Ask football-related questions and receive AI-generated responses.  
- **Retrieval-Augmented Generation (RAG)** – Enhances LLM-generated responses with real-world data.  
- **Efficient Data Pipeline** – Includes **scraping, chunking, vectorization, retrieval, and answer generation**.  
- **AI-Powered Answering System** – Uses **FAISS indexing** and **Mistral 7B LLM** for factual responses.  
- **Automated Evaluation & Optimization** – Measures accuracy using **BLEU, ROUGE, and F1-score**.  
- **Interactive Streamlit UI** – Web interface for easy query submission and response retrieval.  
- **Robust Logging System** – Logs user queries and chatbot responses for tracking and improvement.  
+## Project Overview
 
+### Key Features
+- Real-time Football Q&A – Ask football-related questions and receive AI-generated responses.
+- Retrieval-Augmented Generation (RAG) – Enhances LLM-generated responses with real-world data.
+- Efficient Data Pipeline – Includes scraping, chunking, vectorization, retrieval, and answer generation.
+- AI-Powered Answering System – Uses FAISS indexing and Mistral 7B LLM for factual responses.
+- Automated Evaluation & Optimization – Measures accuracy with RAGAs using faithfulness, context precision, and answer correctness.
+- Comprehensive Testing – Automated unit and integration tests to ensure project robustness.
+- Interactive Streamlit UI – Web interface for easy query submission and response retrieval.
+- Robust Logging System – Logs user queries and chatbot responses for tracking and improvement.
 
+---
 
-
-```
 ## Project Structure
 
-
-Python Data Scrapping Project
-├─ Output                                            # Stores evaluation summaries and performance reports
-│  └─ output.txt
+```
+BBC Football QnA System
+├─ .pytest_cache
+│  └─ v/cache
+├─ Output
+│  └─ evaluation_summary.xlsx
 ├─ README.md
-├─ Testing_Automation                                # Scripts for evaluation, optimization, and summarization
-│  ├─ __init__.py
-│  ├─ evaluate.py                                    # Evaluates chatbot responses using BLEU, ROUGE, and F1-score
-│  ├─ evaluate_low_scoring_tests.py                  # Re-evaluates incorrect answers to improve accuracy
-│  └─ summarize.py                                   # Summarizes evaluation results before and after optimization
+├─ Testing_Automation
+│  ├─ evaluate.py         # Evaluates test cases using RAGAs with modified metrics
+│  └─ summarize.py        # Summarizes evaluation results and exports them to Excel
 ├─ UI
-│  ├─ __pycache__
-│  │  └─ test_faiss.cpython-310.pyc
-│  └─ app.py                                         # Streamlit-based UI for the chatbot
-├─ __init__.py
-├─ data                                              # Stores raw articles, processed chunks, vectors, test cases, logs
+│  └─ app.py              # Streamlit app for chatbot interaction
+├─ data
 │  ├─ QnA_logs
-│  │  └─ qna_logs.json                               #logs stored when the user interacts with the model
+│  │  └─ qna_logs.json    # Logs user queries and chatbot responses
 │  ├─ evaluation_results
-│  │  ├─ evaluation_result_before_enhancement.json   # evaluation result before optimisation in prompt
-│  │  └─ evaluation_results.json                     # evaluation result after optimisation in prompt
+│  │  └─ evaluation_result_ragas.json  # Stores RAGAs evaluation results
 │  ├─ faiss
-│  │  ├─ faiss_index                                 # stores the vector embedding of the chunks
-│  │  ├─ faiss_index.py
-│  │  └─ faiss_vector.json                           # visual representation of the embeddings 
+│  │  ├─ faiss_index      # FAISS index file
+│  │  ├─ faiss_index.py   # FAISS index creation script
+│  │  └─ faiss_vector.json # FAISS vector data
 │  ├─ football_articles
-│  │  ├─ football_articles copy.json
-│  │  ├─ football_articles.csv
-│  │  └─ football_articles.json                      # Scraped football articles 
+│  │  ├─ football_articles.json  # Scraped articles in JSON
+│  │  └─ football_articles.csv   # Scraped articles in CSV
 │  ├─ football_chunks
-│  │  └─ football_chunks.json                        # Stored the chunks of the data
+│  │  └─ football_chunks.json    # Chunked articles for vectorization
 │  ├─ football_test_cases
-│  │  └─ football_test_cases.json                    # generated test cases of the data
-│  ├─ low_scoring_answers
-│  │  ├─ low_scoring_answers.json                    # low scoring test cases before enhancement
-│  │  └─ low_scoring_answers_after_enhancement.json  # low scoring test cases after enhancement
+│  │  └─ football_test_cases_ragas.json  # Test cases generated by Mistral-7B
 │  └─ rough
 │     ├─ rough.json
 │     └─ rough.py
 ├─ processing
-│  ├─ __init__.py
-│  ├─ __pycache__
-│  │  └─ retrieval.cpython-310.pyc
-│  ├─ chunking.py                                    # Splits articles into smaller text chunks
-│  ├─ generate_test_cases.py                         # Generates test cases for evaluation
-│  ├─ retrieval.py                                   # Retrieves relevant chunks from FAISS for a query
-│  └─ vectorization.py                               # Converts text into FAISS embeddings
-├─ requirment.txt                                       
-└─ scrapers
-   └─ bbc_scraper.py                                 # Scrapes football news articles from BBC
-
+│  ├─ chunking.py          # Splits articles into smaller chunks
+│  ├─ generate_test_cases.py  # Generates test cases using Mistral-7B
+│  ├─ retrieval.py        # Retrieves relevant article chunks from FAISS
+│  └─ vectorization.py    # Converts chunks to embeddings and stores them in FAISS
+├─ requirment.txt          # Required dependencies for the project
+├─ scrapers
+│  └─ bbc_scraper.py       # Scrapes BBC Football articles
+└─ tests
+   └─ testing_project.py   # Ensures functionality of all components
 ```
 
 ---
 
+## Installation
 
-## RAG Architecture
- [Image Link](https://drive.google.com/file/d/17gaYTr089MBGTnZ8UQSekHz2VQd0pxi1/view?usp=drive_link)
-
-##  Technologies Used  
-
-### **Programming Languages & Frameworks**  
- **Python 3.10** – Core development language  
- **Streamlit** – UI framework for chatbot interaction  
- **BeautifulSoup & Requests** – Web scraping libraries  
- **LangChain** – Advanced text chunking & retrieval  
- **FAISS** – High-speed vector search indexing  
- **Sentence Transformers** – Text embedding generation  
- **Mistral 7B (Hugging Face)** – Large language model for AI-generated answers  
-
-### **Libraries & Tools**  
- **NumPy** – Data processing  
- **NLTK & ROUGE** – Evaluation metrics (BLEU, ROUGE, and F1-score)  
- **Hugging Face API** – LLM-based inference  
-
----
-
-##  Installation & Setup  
-
-##  Prerequisites
-Ensure the following are installed:  
- **Python 3.10+**  
- **pip (Python Package Manager)**  
- **Hugging Face API Key**  
- **FAISS (for vector search)**  
- **Streamlit (for UI)**  
-
-###  Step 1: Clone the Repository  
+### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd Python-Data-Scraping-Project
+git clone https://github.com/your-repo/Football-QA-Chatbot.git
+cd Football-QA-Chatbot
 ```
 
-### Step 2: Install Dependencies  
+### 2. Install Required Dependencies
 ```bash
-pip install -r requirements.txt
+pip install -r requirment.txt
 ```
 
-###  Step 3: Set Up API Keys   
+### 3. Set Environment Variables
+Add the following API keys to your environment:
 ```bash
-export HUGGINGFACE_API_KEY=your_huggingface_api_key
+export OPENAI_API_KEY="your_openai_api_key"
+export HUGGINGFACE_API_KEY="your_huggingface_api_key"
+```
+
+For Windows:
+```powershell
+$env:OPENAI_API_KEY = "your_openai_api_key"
+$env:HUGGINGFACE_API_KEY = "your_huggingface_api_key"
 ```
 
 ---
 
-##  Running the Project  
+## Usage Instructions
 
-### **Step 1: Scrape Football Articles**
-```bash
-python scrapers/bbc_scraper.py
-```
-**Extracts football news articles** and saves them in:  
- `data/football_articles.json`  
-
----
-
-### **Step 2: Process & Chunk the Data**
-```bash
-python processing/chunking.py
-```
-**Splits long articles into smaller text chunks** and stores them in:  
- `data/football_chunks.json`  
-
----
-
-### **Step 3: Generate FAISS Vector Embeddings**
-```bash
-python processing/vectorization.py
-```
-**Converts chunks into embeddings** and stores them in:  
- `data/faiss_index`  
-
----
-
-### **Step 4: Run the Chatbot UI**
+### 1. Start Streamlit Chatbot
 ```bash
 streamlit run UI/app.py
 ```
- **Ask Football Questions** via an interactive UI and get **AI-powered answers**.  
+- Access the chatbot UI at `http://localhost:8501` to ask questions.
 
----
+### 2. Scrape Football Articles
+```bash
+python scrapers/bbc_scraper.py
+```
+- Saves articles to:
+```
+data/football_articles/football_articles.json
+```
 
-##  Model Evaluation & Optimization  
+### 3. Chunk and Process Articles
+```bash
+python processing/chunking.py
+```
+- Saves chunked articles to:
+```
+data/football_chunks/football_chunks.json
+```
 
-### **Step 5: Generate Test Cases**
+### 4. Create FAISS Vector Index
+```bash
+python processing/vectorization.py
+```
+- Stores vector embeddings in:
+```
+data/faiss/faiss_index
+```
+
+### 5. Generate Football Test Cases
 ```bash
 python processing/generate_test_cases.py
 ```
-Creates **test cases** and stores them in:  
- `data/football_test_cases.json`  
+- Saves test cases to:
+```
+data/football_test_cases/football_test_cases_ragas.json
+```
 
----
-
-### **Step 6: Evaluate Model Performance**
+### 6. Run Evaluation with RAGAs
 ```bash
 python Testing_Automation/evaluate.py
 ```
-Calculates **BLEU, ROUGE, and F1-scores** and stores results in:  
- `data/evaluation_results.json`  
-
----
-
-### **Step 7: Optimize Low-Scoring Answers**
-```bash
-python Testing_Automation/evaluate_low_scoring_tests.py
+- Evaluates test cases with RAGAs and saves results to:
 ```
-Refines **low-scoring responses** and updates:  
- `data/evaluation_results.json`  
+data/evaluation_results/evaluation_result_ragas.json
+```
 
----
-
-### **Step 8: Summarize Evaluation Results**
+### 7. Summarize Test Results
 ```bash
 python Testing_Automation/summarize.py
 ```
-Generates **performance summaries** stored in:  
- `output/output.txt`  
+- Generates a detailed summary and exports to:
+```
+Output/evaluation_summary.xlsx
+```
+
+### 8. Run Unit and Integration Tests
+```bash
+python tests/testing_project.py
+```
+- Tests various functionality and components across the project.
 
 ---
 
-##  Evaluation Metrics & Results  
+## Evaluation and Testing
 
-| Metric                | Before Optimization | After Optimization |
-|-----------------------|--------------------|--------------------|
-| **BLEU**             | 0.0643             | 0.1033             |
-| **ROUGE-1**          | 0.2482             | 0.3200             |
-| **ROUGE-2**          | 0.1291             | 0.1909             |
-| **ROUGE-L**          | 0.2145             | 0.2799             |
-| **F1 Score**         | 0.2287             | 0.3347             |
-| **Low-Scoring Answers** | 818              | 658                |
+### Evaluation Metrics in `evaluate.py`
+- Faithfulness – Checks how factually aligned the generated answer is with the retrieved context.
+- Context Precision – Measures how precise the selected context is in relation to the question.
+- Answer Correctness – Evaluates whether the final answer matches the ground truth.
 
----
-
-##  Logging System  
- **User queries and AI responses** are stored in: `data/qna_logs.json`  
- **Evaluation results** are logged for tracking improvements  
- **Low-scoring answers** are identified and re-evaluated for **better performance**  
+### Pass/Fail Criteria
+- Tests are evaluated based on individual and weighted metrics.
+- Threshold for Passing – Minimum score: `0.8`
+- Weighted Score Calculation:
+    - Faithfulness: 40%
+    - Context Precision: 30%
+    - Correctness: 30%
+- Overall test result is marked as `Passed` or `Failed` based on the weighted score.
 
 ---
 
-##  Troubleshooting  
+## JSON File Descriptions
 
-| Issue | Possible Fix |
-|-------|-------------|
-| **API key errors** | Ensure `HUGGINGFACE_API_KEY` is correctly set |
-| **FAISS index not found** | Run `vectorization.py` before querying |
-| **Scraping not working** | BBC Sport may have changed its structure |
+### `football_articles.json`
+- Stores scraped football news articles for chunking and vectorization.
+```json
+[
+  {
+    "title": "Premier League Update",
+    "content": "Arsenal maintains top position after a 2-1 win over Liverpool."
+  }
+]
+```
+
+### `football_chunks.json`
+- Contains vectorized and chunked versions of articles.
+```json
+[
+  {
+    "Title" : "Arsenal at the top of the table again",
+    "content": "Arsenal remains at the top with a victory over Liverpool.",
+    "embedding": [0.13, 0.84, 0.29, ...]
+  }
+]
+```
+
+### `faiss_index`
+- Contains vectorized and chunked versions of articles.
+```json
+[
+  {
+    "embedding": [0.13, 0.84, 0.29, ...]
+  }
+]
+```
+
+### `football_test_cases_ragas.json`
+- High-quality test cases generated using Mistral-7B.
+```json
+[
+  {
+    "question": "Who won the Premier League title in 2004?",
+    "answer": "Arsenal went unbeaten and won the 2003-2004 Premier League title."
+  }
+]
+```
+
+### `evaluation_result_ragas.json`
+- Evaluation results from RAGAs.
+```json
+[
+  {
+    "question": "Who won the Premier League in 2004?",
+    "ground_truth": "Arsenal went unbeaten and won the 2003-2004 title.",
+    "generated_answer": "Arsenal won the Premier League in 2004.",
+    "faithfulness_score": 0.93,
+    "context_precision_score": 0.87,
+    "correctness_score": 0.95
+  }
+]
+```
 
 ---
 
-##  Key Learnings  
- **Retrieval-Augmented Generation (RAG)** – Combining retrieval and LLMs for factual responses.  
- **FAISS Vector Search** – Efficient document retrieval.  
- **Model Evaluation** – Using **BLEU, ROUGE, and F1-score**.  
- **Web Scraping & Data Processing** – Extracting, chunking, and indexing football news.  
- **Streamlit UI & Logging** – Creating an interactive chatbot with persistent logging.  
+## Evaluation Summary in Excel
+The `summarize.py` script generates an Excel report with:
+- Test Case Results – Individual test case results.
+- Metric Summary – Pass/fail rates for each metric.
+- Overall Summary – Pass percentage, failure percentage, and weighted scores.
 
 ---
 
+## Configuration
+Modify the following parameters as needed:
+
+- Batch Size & Delay in `evaluate.py`
+```python
+batch_size = 1
+delay_between_batches = 5  # Delay between two consecutive batches
+```
+
+- Similarity Threshold in `generate_test_cases.py`
+```python
+SIMILARITY_THRESHOLD = 0.78  # Minimum similarity score to consider two test cases as duplicates
+```
+
+- Score Threshold in `summarize.py`
+```python
+threshold = 0.8  # Minimum score to mark a test case as passed
+```
+
+---
+
+## Project Workflow
+
+1. **Scraping**: BBC Football articles are scraped using `bbc_scraper.py`.
+2. **Chunking**: The scraped articles are chunked using `chunking.py` for better vector representation.
+3. **Vectorization**: Chunked articles are converted into vector embeddings using `vectorization.py` and stored in a FAISS index.
+4. **Retrieval & QnA**: The relevant article chunks are retrieved, and an answer is generated using Mistral-7B hosted on HuggingFace.
+5. **Testing**: Test cases are executed to ensure functionality using `pytest`.
+6. **Evaluation**: Answers are evaluated using RAGAs to ensure faithfulness, context precision, and correctness.
+7. **Summarization**: Evaluation results are summarized and exported to an Excel report.
+
+---
+
+## Acknowledgments
+- OpenAI for GPT-4-turbo API.
+- HuggingFace for hosting Mistral-7B.
+- FAISS for vector search indexing.
+- RAGAs for providing metrics to evaluate context-based answers.
+
+---

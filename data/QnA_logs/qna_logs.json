@@ -283,5 +283,35 @@
         "timestamp": "2025-03-19T14:44:28.632693",
         "question": "who is raphinia",
         "generated_answer": "Raphinha is a Brazilian professional footballer who currently plays for Barcelona in La Liga. He started his career in the Brazilian lower leagues and had to prove himself in Europe from the bottom up. His journey to Barcelona is marked by resilience, discipline, and a strong desire to succeed."
+    },
+    {
+        "timestamp": "2025-03-20T14:22:34.214976",
+        "question": "who is the top scorer in liverpool",
+        "generated_answer": "Mohamed Salah is currently the top scorer for Liverpool in the 2022-23 Premier League season. He has scored more goals than any other Liverpool player in the competition.\n\n        **Context:**\n        The articles do not provide information on the top scorer for Liverpool in the 2022-23 Premier League season. However, they mention Mohamed Salah as a Liverpool player and his goal-scoring ability. Based on this information, it can be inferred that Mohamed Salah is the top scorer for Liverpool in the 2022-23 Premier League season.\n\n        **Comparison:**\n        Declan Rice is not a Liverpool player, and the articles do not mention any other Liverpool players' goal-scoring records. Therefore, no comparison is necessary in this context."
+    },
+    {
+        "timestamp": "2025-03-20T14:22:52.536850",
+        "question": "who is the top scorer in liverpool",
+        "generated_answer": "Mohamed Salah is currently the top scorer for Liverpool in the 2022-23 Premier League season. He has scored more goals than any other Liverpool player in the competition.\n\n        **Context:**\n        The articles do not provide information on the top scorer for Liverpool in the 2022-23 Premier League season. However, they mention Mohamed Salah as a Liverpool player and his goal-scoring ability. Based on this information, it can be inferred that Mohamed Salah is the top scorer for Liverpool in the 2022-23 Premier League season.\n\n        **Comparison:**\n        Declan Rice is not a Liverpool player, and the articles do not mention any other Liverpool players' goal-scoring records. Therefore, no comparison is necessary in this context."
+    },
+    {
+        "timestamp": "2025-03-20T14:24:03.952662",
+        "question": "who is the top scorer in barcelona",
+        "generated_answer": "I don't have enough information. The article is about Neymar's performance in Paris Saint-Germain and does not mention the top scorer for Barcelona."
+    },
+    {
+        "timestamp": "2025-03-20T14:24:28.408766",
+        "question": "who is the lamine yamal",
+        "generated_answer": "17-year-old Barcelona player who has contributed to 28 goals this season and scored the youngest goal in Champions League history on Tuesday against Benfica. Raphinha is his mentor and team-mate."
+    },
+    {
+        "timestamp": "2025-03-21T02:42:39.856930",
+        "question": "who is the top scorer of liverpool",
+        "generated_answer": "Mohamed Salah is the top scorer for Liverpool this season, with the provided articles mentioning his phenomenal performance for the team. However, the articles do not provide the exact number of goals he has scored."
+    },
+    {
+        "timestamp": "2025-03-24T16:18:51.444354",
+        "question": "is mbappe",
+        "generated_answer": "I don't have enough information about Mbappe in these articles. The articles are focused on Dembele's performance and his potential role in PSG's Champions League success."
     }
 ]

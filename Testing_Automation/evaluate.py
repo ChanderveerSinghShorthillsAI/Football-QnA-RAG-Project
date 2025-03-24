@@ -1,48 +1,58 @@
 import json
 import os
+import time
 import numpy as np
 import faiss
-from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
-from rouge_score import rouge_scorer
 from sentence_transformers import SentenceTransformer
-from langchain_huggingface import HuggingFaceEndpoint
+from openai import OpenAI
+from ragas import evaluate
+from ragas.metrics import faithfulness, context_precision, answer_correctness
+from ragas.evaluation import EvaluationDataset, SingleTurnSample
+
 
 class FootballAIAssistant:
     VECTOR_DB_PATH = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/faiss/faiss_index"
     CHUNKED_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_chunks/football_chunks.json"
-    TEST_CASES_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_test_cases/football_test_cases.json"
-    EVALUATION_RESULTS_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/evaluation_results/evaluation_results.json"
-    
+    TEST_CASES_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/football_test_cases/football_test_cases_ragas.json"
+    EVALUATION_RESULTS_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/evaluation_results/evaluation_result_ragas.json"
+
     def __init__(self):
-        self.huggingface_api_key = os.getenv("HUGGINGFACE_API_KEY")
+        """Initialize models and load data"""
+        self.openai_api_key = os.getenv("OPENAI_API_KEY")
+        if not self.openai_api_key:
+            raise ValueError(" OPENAI_API_KEY environment variable not set.")
+
+        self.client = OpenAI(api_key=self.openai_api_key)
         self.embeddings_model = SentenceTransformer("all-MiniLM-L6-v2")
-        self.llm = HuggingFaceEndpoint(
-            endpoint_url="https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2",
-            huggingfacehub_api_token=self.huggingface_api_key,
-            temperature=0.7,
-            model_kwargs={"max_length": 500}
-        )
         self.index = self.load_faiss_index()
         self.chunks = self.load_chunks()
-    
+
     def load_faiss_index(self):
+        """Load FAISS vector database (handle missing index)."""
+        if not os.path.exists(self.VECTOR_DB_PATH):
+            raise FileNotFoundError(f" FAISS Index Not Found: {self.VECTOR_DB_PATH}")
         return faiss.read_index(self.VECTOR_DB_PATH)
-    
+
     def load_chunks(self):
+        """Load pre-processed document chunks."""
+        if not os.path.exists(self.CHUNKED_FILE):
+            raise FileNotFoundError(f" Chunks File Not Found: {self.CHUNKED_FILE}")
         with open(self.CHUNKED_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
-    
-    def get_relevant_chunks(self, query, top_k=1):
+
+    def get_relevant_chunks(self, query, top_k=3):
+        """Retrieve top_k most relevant text chunks for a query."""
         query_vector = self.embeddings_model.encode([query])
         query_vector = np.array(query_vector, dtype="float32")
         distances, indices = self.index.search(query_vector, top_k)
         return [self.chunks[i]["content"] for i in indices[0] if i < len(self.chunks)]
-    
-    def generate_answer(self, query):
-        relevant_texts = self.get_relevant_chunks(query, top_k=1)
+
+    def generate_answer(self, query, max_retries=3):
+        """Generate AI-based answer using OpenAI GPT-4-turbo with retry mechanism."""
+        relevant_texts = self.get_relevant_chunks(query, top_k=3)
         if not relevant_texts:
             return "I don't have enough information."
-        
+
         context = "\n\n".join(relevant_texts)
         prompt = f"""
         ### Football Knowledge Assistant
@@ -59,54 +69,120 @@ class FootballAIAssistant:
 
         **Answer:**
         """
-        return self.llm.invoke(prompt).strip()
-    
-    def calculate_bleu(self, reference, candidate):
-        smooth = SmoothingFunction().method1
-        return sentence_bleu([reference.split()], candidate.split(), smoothing_function=smooth)
-    
-    def calculate_rouge(self, reference, candidate):
-        scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
-        scores = scorer.score(reference, candidate)
-        return {key: scores[key].fmeasure for key in scores}
-    
-    def calculate_f1(self, reference, candidate):
-        ref_tokens = set(reference.lower().split())
-        cand_tokens = set(candidate.lower().split())
-        common_tokens = ref_tokens.intersection(cand_tokens)
-        precision = len(common_tokens) / len(cand_tokens) if cand_tokens else 0
-        recall = len(common_tokens) / len(ref_tokens) if ref_tokens else 0
-        return 2 * (precision * recall) / (precision + recall) if precision + recall else 0
-    
-    def evaluate_test_cases(self):
+        for attempt in range(max_retries):
+            try:
+                response = self.client.chat.completions.create(
+                    model="gpt-4-turbo",
+                    messages=[{"role": "system", "content": prompt}],
+                    temperature=0.7,
+                    max_tokens=350
+                )
+                time.sleep(0.5)  # Delay to prevent rate limits
+                return response.choices[0].message.content.strip()
+            except Exception as e:
+                print(f" API Error: {e}, Retrying {attempt + 1}/{max_retries}...")
+                time.sleep(2 ** attempt)  # Exponential backoff
+        return "API Error: Unable to generate answer."
+
+    def evaluate_test_cases_with_ragas(self, batch_size=1, delay_between_batches=5):
+        """Evaluate chatbot responses using RAGAs with error handling and retry."""
         with open(self.TEST_CASES_FILE, "r", encoding="utf-8") as f:
             test_cases = json.load(f)
-        
-        results = []
+
+        # Load existing results to avoid duplication
+        existing_results = self.load_existing_results()
+
+        processed_questions = {result["question"] for result in existing_results}
+        dataset_list = []
+        total_cases = len(test_cases)
+        print(f" Preparing {total_cases} test cases for RAGAs evaluation...")
+
+        if not test_cases:
+            print(" No test cases found! Exiting evaluation.")
+            return
+
         for i, test_case in enumerate(test_cases):
-            print(f"Evaluating {i+1}/{len(test_cases)}: {test_case['question']}")
-            answer = self.generate_answer(test_case['question'])
-            bleu = self.calculate_bleu(test_case['answer'], answer)
-            rouge = self.calculate_rouge(test_case['answer'], answer)
-            f1 = self.calculate_f1(test_case['answer'], answer)
-            results.append({
-                "question": test_case['question'],
-                "ground_truth": test_case['answer'],
-                "generated_answer": answer,
-                "bleu_score": bleu,
-                "rouge_score": rouge,
-                "f1_score": f1
+            user_input = test_case["question"]
+
+            # Skip already processed test cases
+            if user_input in processed_questions:
+                continue
+
+            retrieved_contexts = self.get_relevant_chunks(user_input, top_k=3)
+            ground_truth_answer = test_case["answer"]
+            model_response = self.generate_answer(user_input)
+
+            # Prepare test case sample
+            dataset_list.append(SingleTurnSample(
+                user_input=user_input,
+                retrieved_contexts=retrieved_contexts,
+                response=model_response,
+                reference=ground_truth_answer
+            ))
+
+            print(f" Processed test case {i + 1}/{total_cases}")
+
+            # Evaluate and save after each batch
+            if len(dataset_list) >= batch_size or i == total_cases - 1:
+                self._evaluate_and_save_batch(dataset_list, existing_results)
+                dataset_list = []  # Clear dataset after saving
+                time.sleep(delay_between_batches)  # Delay to avoid rate limits
+
+        print(f"\n Evaluation completed using RAGAs. Results saved in `{self.EVALUATION_RESULTS_FILE}`.")
+
+    def load_existing_results(self):
+        """Load existing evaluation results to avoid duplication."""
+        if os.path.exists(self.EVALUATION_RESULTS_FILE):
+            with open(self.EVALUATION_RESULTS_FILE, "r", encoding="utf-8") as f:
+                try:
+                    return json.load(f)
+                except json.JSONDecodeError:
+                    return []
+        return []
+
+    def _evaluate_and_save_batch(self, dataset_list, existing_results, max_retries=3):
+        """Evaluate a batch and append results to file with retry on failure."""
+        if not dataset_list:
+            return
+
+        dataset = EvaluationDataset(dataset_list)
+
+        for attempt in range(max_retries):
+            try:
+                eval_results = evaluate(
+                    dataset,
+                    metrics=[faithfulness, context_precision, answer_correctness],
+                )
+                break
+            except TimeoutError as e:
+                print(f"⚠️ TimeoutError: Retrying {attempt + 1}/{max_retries}...")
+                time.sleep(2 ** attempt)  # Exponential backoff
+        else:
+            print(" Evaluation failed after retries.")
+            return
+
+        # Save results to existing results
+        for i, sample in enumerate(dataset.samples):
+            existing_results.append({
+                "question": sample.user_input,
+                "ground_truth": sample.reference,
+                "generated_answer": sample.response,
+                "faithfulness_score": eval_results["faithfulness"][i],
+                "context_precision_score": eval_results["context_precision"][i],
+                "correctness_score": eval_results["answer_correctness"][i],
             })
-        
+
+        # Save intermediate results incrementally
+        self.save_results(existing_results)
+
+        print(f"Saved {len(dataset_list)} test cases to `{self.EVALUATION_RESULTS_FILE}`.")
+
+    def save_results(self, results):
+        """Save evaluation results to a file."""
         with open(self.EVALUATION_RESULTS_FILE, "w", encoding="utf-8") as f:
             json.dump(results, f, indent=4, ensure_ascii=False)
-        
-        print(f"\nEvaluation completed. Results saved in `{self.EVALUATION_RESULTS_FILE}`.")
+
 
 if __name__ == "__main__":
     assistant = FootballAIAssistant()
-    assistant.evaluate_test_cases()
-
-
-
-
+    assistant.evaluate_test_cases_with_ragas(batch_size=1, delay_between_batches=5)
