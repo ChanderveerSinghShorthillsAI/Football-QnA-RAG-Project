@@ -69,7 +69,7 @@ BBC Football QnA System
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-repo/Football-QA-Chatbot.git
+git clone https://github.com/ChanderveerSinghShorthillsAI/Football-QnA-RAG-Project
 cd Football-QA-Chatbot
 ```
 
