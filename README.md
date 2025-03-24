@@ -22,8 +22,6 @@ A Python-based end-to-end system that scrapes BBC Football articles, chunks and 
 
 ```
 BBC Football QnA System
-├─ .pytest_cache
-│  └─ v/cache
 ├─ Output
 │  └─ evaluation_summary.xlsx
 ├─ README.md
@@ -70,7 +68,6 @@ BBC Football QnA System
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/ChanderveerSinghShorthillsAI/Football-QnA-RAG-Project
-cd Football-QA-Chatbot
 ```
 
 ### 2. Install Required Dependencies
