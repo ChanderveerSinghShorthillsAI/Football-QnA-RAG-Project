@@ -3322,5 +3322,729 @@
     {
         "question": "Which team scored the winning goal in the Premier League match between Chelsea and Leicester on Sunday?",
         "answer": "Chelsea"
+    },
+    {
+        "question": "How did East Kilbride secure their victory against Ayr United in the SPFL Trust Trophy match?",
+        "answer": "East Kilbride secured their victory with a goal from striker John Robertson and a headed goal from midfielder Joao Balde in the early stages of the match."
+    },
+    {
+        "question": "How did Jaden Warner join Newport County?",
+        "answer": "Jaden Warner joined Newport County from Norwich City in January."
+    },
+    {
+        "question": "Who is Kevin Gonzalez Quintero and what is his football background?",
+        "answer": "Kevin Gonzalez Quintero, also known as 'Kego', is a one-time wonderkid who was once Jude Bellingham's England room-mate. He played in the same youth teams as Jamal Musiala and Harvey Elliott and was the guy a young Jhon Duran would ask for boots."
+    },
+    {
+        "question": "How long has it been since Luton Town celebrated their promotion to the Premier League under Rob Edwards?",
+        "answer": "It has been 21 months since Luton Town's promotion to the Premier League under Rob Edwards."
+    },
+    {
+        "question": "How did Leo Smith contribute to The New Saints' victory over Bala Town?",
+        "answer": "Leo Smith scored a goal within the first 15 seconds of the match, setting The New Saints on the path to victory against Bala Town."
+    },
+    {
+        "question": "What has been the key factor contributing to Gus Scott-Morriss's impressive goal-scoring form this season?",
+        "answer": "Gus Scott-Morriss attributes his goal-scoring success to having the belief to go and try, as mentioned in the article."
+    },
+    {
+        "question": "What potential issues does St Johnstone anticipate for the Celtic match on 6 April?",
+        "answer": "St Johnstone anticipates potential issues related to increased interest in the game and concerns that Celtic supporters may obtain tickets in home fan areas, leading to additional safety measures."
+    },
+    {
+        "question": "Hypothetically, if a women's club wins the Women's Champions League in 2028 and 2032, how many times could they potentially participate in the Women's Club World Cup by 2036?",
+        "answer": "If a women's club wins the Women's Champions League in 2028 and 2032, they could potentially participate in the Women's Club World Cup twice by 2036, as it runs every four years starting from 2028."
+    },
+    {
+        "question": "Hypothetically, if Philippe Clement had not been sacked by Rangers, what impact could it have had on the club's performance in the Scottish Premiership?",
+        "answer": "If Philippe Clement had not been sacked by Rangers, it is possible that the club could have potentially closed the 13-point gap behind Scottish Premiership leaders Celtic with his managerial strategies and guidance."
+    },
+    {
+        "question": "Comparatively, which player's transfer to Cliftonville in the January window is most likely to boost the team's attacking prowess?",
+        "answer": "Eric McWoods' transfer to Cliftonville is most likely to boost the team's attacking prowess as he has been brought in specifically to add to the Reds' goalscoring threat."
+    },
+    {
+        "question": "Who is the key striker that departed Loughgall for Glentoran late in the January window?",
+        "answer": "Key striker Nathaniel Ferris departed Loughgall for Glentoran late in the January window."
+    },
+    {
+        "question": "If Livingston and St Johnstone advance to the Scottish Cup semi-finals, when will their match likely take place?",
+        "answer": "If Livingston and St Johnstone advance, their Scottish Cup semi-final match will likely take place after the final quarter-final on Monday, as three of the four semi-final spots are already decided."
+    },
+    {
+        "question": "What actions did Motherwell and Rangers fans take at Hampden that led to a delayed kick-off?",
+        "answer": "Motherwell and Rangers fans set off pyrotechnics at Hampden, causing a delay in kick-off."
+    },
+    {
+        "question": "Who were the goal scorers for their respective clubs in the Irish Cup quarter-finals last weekend?",
+        "answer": "Joe Gormley, Michael Ruddy, John McGovern, and Lewis Harrison scored for their clubs in the Irish Cup quarter-finals."
+    },
+    {
+        "question": "If England had won the Euro 2024 final against Spain, how would that have impacted Gareth Southgate's legacy as the national team manager?",
+        "answer": "A Euro 2024 victory for England under Gareth Southgate would have solidified his legacy as a successful manager, breaking the men's team's half-century wait for a major trophy and potentially overshadowing any previous criticisms of their style of play and squad utilization."
+    },
+    {
+        "question": "How many games will Anthony Gordon miss if Newcastle's appeal against his red card is unsuccessful?",
+        "answer": "Anthony Gordon will miss three games if Newcastle's appeal against his red card is unsuccessful."
+    },
+    {
+        "question": "How did David Ajiboye contribute to Newport County's performance against Gillingham?",
+        "answer": "David Ajiboye was instrumental in all three goals scored by Newport County against Gillingham on Tuesday evening."
+    },
+    {
+        "question": "What actions will be taken against Celtic and Rangers for the illegal use of pyrotechnics at the Premier Sports Cup final?",
+        "answer": "Celtic and Rangers will face potential fines and will be called before an independent panel at a hearing early next year."
+    },
+    {
+        "question": "How does Sir Jim Ratcliffe describe the new stadium that Manchester United plans to build?",
+        "answer": "Sir Jim Ratcliffe wants to build the 'world's greatest football stadium' according to Red Devils co-owner."
+    },
+    {
+        "question": "After winning the Scottish Cup final in 2012, how long did Ryan McGowan admit to being drunk for?",
+        "answer": "Ryan McGowan admitted to being drunk for two weeks after Hearts' 2012 Scottish Cup final win over Hibernian."
+    },
+    {
+        "question": "According to Sir Jim Ratcliffe, which Manchester United players were specifically mentioned as 'inherited' by his regime?",
+        "answer": "Casemiro, Hojlund, Onana, Antony, and Jadon Sancho were specifically mentioned by Sir Jim Ratcliffe as players his regime had 'inherited'."
+    },
+    {
+        "question": "In the Nathaniel MG Cup 2024-25, which team won the match between Connahâs Quay Nomads and Aberystwyth Town on Tuesday 22 October in the Northern Section?",
+        "answer": "Aberystwyth Town won the match against Connahâs Quay Nomads with a score of 2-1 on Tuesday 22 October."
+    },
+    {
+        "question": "How did Arthur Okonkwo describe his recovery process from the wrist injury?",
+        "answer": "Arthur Okonkwo described his recovery process as difficult, mentioning that coming back from the injury led to a loss of consistency and momentum.",
+        "follow-up-question": "What form is Arthur Okonkwo currently showing?",
+        "follow-up-answer": "Arthur Okonkwo is currently showing the kind of form that earned him praise earlier in the season before his wrist injury."
+    },
+    {
+        "question": "What were the criticisms of England's style of play during the Euro 2024 final against Spain?",
+        "answer": "There was criticism of England's style of play and the failure to best utilise a squad packed with young, attacking talent."
+    },
+    {
+        "question": "How did Vinay Menon become connected to Chelsea owner Roman Abramovich?",
+        "answer": "Vinay Menon was a word-of-mouth recommendation to Roman Abramovich due to his delivery of wellness, yoga, and relaxation exercises to billionaires and celebrities at a luxury hotel in Dubai."
+    },
+    {
+        "question": "If Ollie Rathbone and Ryan Longman are unable to play against Reading due to injury concerns, who could potentially fill in for them in Wrexham's starting lineup?",
+        "answer": "In the event that Ollie Rathbone and Ryan Longman are sidelined, Wrexham may look to other midfield options such as Luke Young or Jake Hyde to step in and fill their positions."
+    },
+    {
+        "question": "How many starts has Olga Ahtinen made in the Women's Super League this season for Tottenham?",
+        "answer": "Olga Ahtinen has made only three starts in the Women's Super League this season for Tottenham."
+    },
+    {
+        "question": "How has the new format of the Champions League impacted the scheduling of matches compared to the previous format?",
+        "answer": "The new format of the Champions League has led to a revamped league phase that has introduced more thrilling and intense matches, as seen with Manchester City's dramatic comeback against Club Brugge and Aston Villa's hard-fought victory over Celtic."
+    },
+    {
+        "question": "In the 2024-25 Nathaniel MG Cup, which team emerged victorious in the final between The New Saints and Swansea City Under-21s?",
+        "answer": "The New Saints defeated Swansea City Under-21s with a score of 5-1 in the Nathaniel MG Cup final for the 2024-25 season."
+    },
+    {
+        "question": "How many points has Alan Sheehan earned as Swansea City's caretaker boss in his second spell?",
+        "answer": "Alan Sheehan has earned four points in two games as Swansea City's caretaker boss in his second spell."
+    },
+    {
+        "question": "How many appearances has Kenny McLean made for Norwich City since joining from Aberdeen in January 2018?",
+        "answer": "Kenny McLean has made more than 250 appearances for Norwich City since signing from Aberdeen in January 2018."
+    },
+    {
+        "question": "How does Livingston manager Simo Valakari describe the style of play his team uses according to the article?",
+        "answer": "Valakari describes Livingston's style as using football's 'dark arts' to try to win."
+    },
+    {
+        "question": "What changes are being implemented in the Challenge Cup for the upcoming season?",
+        "answer": "Scottish Premiership B teams will be included in a new Challenge Cup league format in the upcoming season."
+    },
+    {
+        "question": "Hypothetically, how would Mohamed Salah potentially benefit Tottenham's struggling team according to Ange Postecoglou?",
+        "answer": "Ange Postecoglou believes even 'world class' Mohamed Salah would find life a struggle at Tottenham at the moment due to the team's difficult run of form."
+    },
+    {
+        "question": "How has Coleraine's squad been strengthened during the January window?",
+        "answer": "Coleraine strengthened their squad by bringing in Ronan Doherty from Cliftonville, Levi Ives from Larne, Paddy Burns as a free agent, Declan McManus from TNS, and Charles Dunne from St Mirren."
+    },
+    {
+        "question": "How did Lennon Miller contribute to Motherwell's success against Dundee United?",
+        "answer": "Lennon Miller scored a stoppage-time penalty that sent Motherwell through to the League Cup semi-final with Rangers."
+    },
+    {
+        "question": "Hypothetically speaking, if Liverpool were to face Bayern Munich in the Champions League final, what percentage of BBC Sport readers predicted Liverpool to emerge as the winners?",
+        "answer": "Ninety percent of voters predicted that Liverpool would beat Barcelona in the final, not Bayern Munich."
+    },
+    {
+        "question": "If Diogo Dalot were to move to Bayern Munich, what potential impact could his transfer have on the team's defensive lineup?",
+        "answer": "If Diogo Dalot were to join Bayern Munich, he could provide additional depth in the defensive lineup and offer versatility in both full-back positions due to his experience as a right-back and ability to adapt to different tactical systems."
+    },
+    {
+        "question": "How does Charlton Athletic's current position in League One compare to their position in the previous season?",
+        "answer": "Charlton Athletic is currently fifth in League One, aiming for a place in the play-offs, after failing to make the top six since being relegated from the Championship in 2020."
+    },
+    {
+        "question": "Who did your Championship club loan in during the January 2025 transfer window?",
+        "answer": "Partick Thistle loaned in Ricco Diack, forward, and Burton Albion loaned in Alex Bannon, midfielder."
+    },
+    {
+        "question": "Who was appointed as the chief executive of the Football Association of Wales in August 2021?",
+        "answer": "Noel Mooney was appointed as the chief executive of the Football Association of Wales in August 2021."
+    },
+    {
+        "question": "In what year will Fifa introduce the Women's Club World Cup?",
+        "answer": "Fifa will introduce the Women's Club World Cup in 2028, running every four years."
+    },
+    {
+        "question": "Describe the sequence of events in the match between Briton Ferry Llansawel and Barry Town United that ended 3-4 in Barry's favor.",
+        "answer": "Ollie Hulbert and Ieuan Owen scored to give Barry a 2-0 lead, Thomas Walters pulled one back for Ferry, Hulbert scored again to make it 3-1, Ruben Davies and Keiran Williams scored to level at 3-3, and Owen scored in stoppage time to secure a 4-3 victory for Barry."
+    },
+    {
+        "question": "Who scored the crucial goal for Liverpool that leveled the tie against Paris St-Germain in the Champions League match described by Arne Slot as 'the best game of football I've been involved in'?",
+        "answer": "Ousmane Dembele scored the goal for Liverpool that leveled the tie against Paris St-Germain in the Champions League match."
+    },
+    {
+        "question": "Why will Conor Bradley and Daniel Ballard miss Northern Ireland's friendlies in March?",
+        "answer": "Conor Bradley and Daniel Ballard will miss Northern Ireland's friendlies in March due to injury."
+    },
+    {
+        "question": "What was the transfer fee for Dom Dwyer when he joined Orlando City in 2017?",
+        "answer": "Dom Dwyer joined Orlando City for a then league-record deal of Â£1.2m in 2017."
+    },
+    {
+        "question": "Comparatively, how does Lamine Yamal's goal contributions for club and country at the age of 17 stack up against other young football talents?",
+        "answer": "Lamine Yamal's goal contributions at the age of 17, nearing 60, far exceed many other young talents in football history, showcasing his exceptional skills and impact at a remarkably young age."
+    },
+    {
+        "question": "What was the reason for Matheus Cunha receiving a red card in the FA Cup fifth-round match against Bournemouth?",
+        "answer": "Matheus Cunha received a red card for violent conduct in the final minute of extra time after an unsavoury clash with Bournemouth's defender Milos Kerkez."
+    },
+    {
+        "question": "How did Sheffield Wednesday manager Danny Rohl describe his team's mentality after the match against Norwich City?",
+        "answer": "Sheffield Wednesday manager Danny Rohl praised his team's 'outstanding' mentality following their second-half comeback to win at Norwich City."
+    },
+    {
+        "question": "Among Aston Villa, Brighton & Hove Albion, Crystal Palace, and Everton, which club has had the most recent transfer dealings with Celtic?",
+        "answer": "Aston Villa, Brighton & Hove Albion, Crystal Palace, and Everton are all interested in bringing back Cameron Carter-Vickers from Celtic."
+    },
+    {
+        "question": "Why does the manager consider playing against Coventry on Tuesday a good game to have?",
+        "answer": "The manager believes it's a good game to have as playing against Coventry allows them to build momentum and showcase the benefits of their training ground work through a victory, emphasizing the importance of the manner of the victory as much as the result."
+    },
+    {
+        "question": "How does Benni McCarthy's coaching experience at Manchester United connect to his new role as Kenya's head coach?",
+        "answer": "Benni McCarthy was a first-team coach at Manchester United for two seasons between 2022 and 2024 before being appointed as Kenya's new head coach, bringing valuable coaching experience from his time at the club."
+    },
+    {
+        "question": "Which clubs did Shane McEleney and Ciaron Coll join Glentoran from in the January transfer window?",
+        "answer": "Shane McEleney and Ciaron Coll joined Glentoran from Derry City in the January transfer window."
+    },
+    {
+        "question": "What was the transfer fee when Ousmane Dembele signed for Barcelona from Borussia Dortmund in 2017?",
+        "answer": "Ousmane Dembele signed for Barcelona from Borussia Dortmund in 2017 in a deal worth £135 million, making him the second-most expensive player in history at that time."
+    },
+    {
+        "question": "How does New European Leagues president Claudius Schafer feel about the impact of the $1bn prize pot for the 32-team Club World Cup on domestic competitions?",
+        "answer": "Claudius Schafer 'fears for the future' of domestic competitions due to the distortion created by the prize money from international tournaments."
+    },
+    {
+        "question": "How have coaches described Daizen Maeda in the article?",
+        "answer": "Coaches have described Maeda as a 'machine' and a 'physical beast'."
+    },
+    {
+        "question": "What was Philippe Clement's reaction to Rangers' performance against Ange Postecoglou's Spurs?",
+        "answer": "Philippe Clement was pleased with his side's performance against Ange Postecoglou's Spurs."
+    },
+    {
+        "question": "What was Nicky Hayen's initial managerial position before leading Club Brugge in the Champions League?",
+        "answer": "Nicky Hayen was initially appointed as the manager of semi-professional Haverfordwest County in the Cymru Premier league.",
+        "follow_up_question": "How long has Nicky Hayen been managing Club Brugge since he joined the team on New Year's Eve 2021?",
+        "follow_up_answer": "Nicky Hayen has been managing Club Brugge for approximately three years since joining them on New Year's Eve 2021."
+    },
+    {
+        "question": "How will Scottish Premiership B teams be involved in the Challenge Cup next season?",
+        "answer": "Scottish Premiership B teams will be included in a new Challenge Cup league format next season."
+    },
+    {
+        "question": "According to Willie Collum, why should Celtic and Dundee United's disallowed goals in Scottish Premiership defeats by Hibernian have stood?",
+        "answer": "Willie Collum believes that the disallowed goals should have stood because he doesn't think VAR can overrule those decisions."
+    },
+    {
+        "question": "How did Leo Smith's goal impact The New Saints' position in the table?",
+        "answer": "Leo Smith's goal within the first 15 seconds helped The New Saints secure a victory against Bala Town, maintaining their 100% record in phase two and extending their lead at the top of the table to 12 points over Penybont."
+    },
+    {
+        "question": "How many consecutive matches has The New Saints won in all competitions according to the article?",
+        "answer": "The New Saints have won 13 consecutive matches in all competitions."
+    },
+    {
+        "question": "In the context of the 'Gibraltar is Spanish' chant incident, what specific disciplinary charges have Alvaro Morata and Rodri been charged with by UEFA?",
+        "answer": "Alvaro Morata and Rodri have been charged with 'general principles of conduct, violating the basic rules of decent conduct, using sporting events for manifesting non-sporting events and provoking incidents', as per the UEFA disciplinary proceedings."
+    },
+    {
+        "question": "How did Sunderland defender Trai Hume describe Preston North End's time-wasting tactics during the match?",
+        "answer": "Trai Hume described Preston North End's time-wasting tactics as going to the extreme, with about four or five players going down following Emil Riis' opening strike."
+    },
+    {
+        "question": "How did the nation react to the tragic air crash mentioned in the article?",
+        "answer": "The air crash tragedy touched generations across two decades and laid bare the nation's soul."
+    },
+    {
+        "question": "What was significant about Jaden Warner's appearance in Newport County's victory over Gillingham?",
+        "answer": "Jaden Warner made his Exiles debut in the match, marking his first EFL appearance since a loan spell at Notts County last season."
+    },
+    {
+        "question": "According to BBC chairman Samir Shah, what does he suggest should be reduced on Match of the Day?",
+        "answer": "Samir Shah suggests that Match of the Day should show fewer Premier League highlights and focus more on analysis and examination of the matches."
+    },
+    {
+        "question": "What was the score of the first leg Europa League tie between Fenerbahce and Rangers?",
+        "answer": "Rangers won the first leg 3-1 against Fenerbahce in Istanbul."
+    },
+    {
+        "question": "How did Barry Ferguson handle doubts from his coaching staff regarding changing the team shape to a back three before Rangers' match against Fenerbahce?",
+        "answer": "Barry Ferguson overruled his coaching staff and implemented the change of shape to a back three, stating that he 'had my way' which ultimately led to a 3-1 first-leg win away to Fenerbahce in the Europa League last 16."
+    },
+    {
+        "question": "If Teddy Bishop is unable to return before the end of the season, how might Colchester United be affected in their pursuit of the play-off places in League Two?",
+        "answer": "If Teddy Bishop is unable to return before the end of the season, Colchester United's chances of closing the six-point gap on the play-off places could be impacted as he is considered an important player for the team."
+    },
+    {
+        "question": "Comparatively, how many appearances did Regan Poole make for Lincoln City before joining Portsmouth in 2023?",
+        "answer": "Regan Poole made 33 appearances for Lincoln City before joining Portsmouth in 2023."
+    },
+    {
+        "question": "Hypothetically, if a League 2 club were to secure a high-profile loan signing in the January 2025 transfer window, who could be a potential player they might bring in based on recent trends?",
+        "answer": "Considering recent loan signings in the League 2, a potential high-profile player a club might bring in could be Liam Morrison, a promising young defender from Celtic, to bolster their defensive line."
+    },
+    {
+        "question": "Who are the three players mentioned in the article for featuring on Sunday?",
+        "answer": "Jim Goodwin, Rocky Bushiri, and Elton Kabangu are the three players mentioned in the article for featuring on Sunday."
+    },
+    {
+        "question": "What was the scoreline in the Carabao Cup semi-final second leg match between Liverpool and Tottenham?",
+        "answer": "Liverpool demolished Tottenham 4-0 in the Carabao Cup semi-final second leg."
+    },
+    {
+        "question": "Describe Alisson's performance in the match against Paris St-Germain at the Parc des Princes.",
+        "answer": "Alisson displayed an otherworldly performance, making nine saves to frustrate PSG despite Liverpool being on the ropes for 87 minutes. His saves were crucial in securing a 1-0 first-leg advantage for the Reds in their last-16 tie."
+    },
+    {
+        "question": "In what competition did Kevin Nisbet score a birthday goal against Queen's Park?",
+        "answer": "Kevin Nisbet scored a birthday goal against Queen's Park in the Scottish Cup quarter-finals."
+    },
+    {
+        "question": "How has Ryan Allsop contributed to Birmingham City's success this season?",
+        "answer": "Ryan Allsop joined Birmingham from Hull City ahead of the current season and has been a key player as the goalkeeper for the League One leaders, helping them maintain their lead at the top of the table."
+    },
+    {
+        "question": "According to Kieron Brady, what is his opinion on Sunderland's investment into the squad for promotion?",
+        "answer": "Kieron Brady believes Sunderland is not making enough investment into the squad to reach promotion, stating 'There's an argument they're doing it on the cheap.'"
+    },
+    {
+        "question": "How many points behind safety is Shrewsbury Town in League One, as of the article's information?",
+        "answer": "Shrewsbury Town is 11 points behind safety in League One with 10 matches left to play."
+    },
+    {
+        "question": "Why does Nelson Jardim emphasize the importance of patience when bringing in young players like Jaden Warner to Newport County?",
+        "answer": "Nelson Jardim emphasizes patience because young players need time to develop and prove themselves as potential regulars for the team, requiring a nurturing environment to grow and succeed in their football careers."
+    },
+    {
+        "question": "How did Lens manager Will Still manage the team during their Ligue 1 win over Marseille?",
+        "answer": "Will Still oversaw Lens' victory after his girlfriend Emma Saunders advised him to stay in the dugout despite her health issues."
+    },
+    {
+        "question": "How did Arsenal perform in their match against Manchester United according to the article?",
+        "answer": "Arsenal produced a 'nearly performance' in the 1-1 draw at Manchester United, failing to land a serious blow on a United side short on quality and confidence."
+    },
+    {
+        "question": "How crucial was Leeds United's win over Sheffield United in the Championship promotion race according to Daniel Farke?",
+        "answer": "Daniel Farke stated that Leeds United's win over Sheffield United was 'just three points' and not as significant as it may have felt in the moment."
+    },
+    {
+        "question": "Who is Barrow in talks with regarding potential investment into the club?",
+        "answer": "Barrow is in talks with an American-based British celebrity over potential investment into the club."
+    },
+    {
+        "question": "If Gareth Southgate had not become England manager, what career highlights would BBC Sport's Kelly Somers have missed out on?",
+        "answer": "BBC Sport's Kelly Somers would have missed out on some of her career highlights, as Gareth Southgate's tenure as England manager provided memorable moments and experiences over the past three years."
+    },
+    {
+        "question": "Why did Troy Deeney select Dean Henderson from Crystal Palace in his Premier League team of the week?",
+        "answer": "Troy Deeney selected Dean Henderson due to his performance in a scrappy game against Ipswich where he faced 15 shots, with eight on target, and kept a clean sheet in a 1-0 win, showcasing excellence and potential for an England starting position."
+    },
+    {
+        "question": "What led to Ronan Hale's availability for Northern Ireland according to Michael O'Neill?",
+        "answer": "Ronan Hale became available for Northern Ireland after completing his international transfer from the Republic of Ireland."
+    },
+    {
+        "question": "Which uncapped teenagers have been named in Scotland's squad for the Nations League play-off matches with Greece?",
+        "answer": "Lennon Miller and James Wilson, both 18 years old, have been named in Scotland's squad for the Nations League play-off matches with Greece."
+    },
+    {
+        "question": "Why is Darwin Nunez not to blame for Liverpool's exit in the Champions League last-16 stage?",
+        "answer": "Darwin Nunez should not shoulder the blame for Liverpool's exit as he faced the growing force of Paris St-Germain and had an undistinguished performance as a substitute before missing a penalty in the shootout."
+    },
+    {
+        "question": "If Falkirk wins their remaining matches, Livingston loses one game, and Ayr United draws all their remaining games, what is the highest achievable points total for each team by the end of the season?",
+        "answer": "Falkirk could achieve a maximum of X points, Livingston could achieve a maximum of Y points, and Ayr United could achieve a maximum of Z points."
+    },
+    {
+        "question": "What were Geoffroy Bony's outcomes in his first four appearances for Newport County?",
+        "answer": "Geoffroy Bony's first four Newport County appearances all ended in draws."
+    },
+    {
+        "question": "What position did Eric Ramsay guide Minnesota United to in the MLS Western Conference in 2024?",
+        "answer": "Eric Ramsay guided Minnesota United to sixth spot in the MLS Western Conference in 2024."
+    },
+    {
+        "question": "What significant event occurred on 21 July 1964 in the article 'Chasing the 'Ghost' - a superstar struck down by lightning'?",
+        "answer": "Lightning struck and affected the protagonist's story on 21 July 1964."
+    },
+    {
+        "question": "Comparatively, which club made more signings during Coleraine's January window: Cliftonville or Larne?",
+        "answer": "Cliftonville made more signings during Coleraine's January window as they brought in Ronan Doherty."
+    },
+    {
+        "question": "According to the article, which continent's clubs are favored to perform well in the upcoming 32-team Fifa Club World Cup in the USA?",
+        "answer": "European clubs are favored to perform well in the upcoming 32-team Fifa Club World Cup in the USA."
+    },
+    {
+        "question": "In the EFL Cup quiz mentioned in the article, what happens if a participant answers a question incorrectly?",
+        "answer": "If a participant answers a question incorrectly in the EFL Cup quiz, they will have to start again."
+    },
+    {
+        "question": "Why has Philippe Clement not yet beaten Celtic as Rangers manager?",
+        "answer": "Philippe Clement has not yet beaten Celtic as Rangers manager because Rangers did not win the League Cup trophy after a 120-minute match against Celtic, despite their intense focus on winning."
+    },
+    {
+        "question": "If Lennon Miller continues his impressive form, what potential impact could he have on the Scottish national team?",
+        "answer": "Lennon Miller's rise as an emerging star for Motherwell could lead to a call-up to the Scottish national team, providing them with a talented young player for future competitions."
+    },
+    {
+        "question": "If Livingston secures the fresh investment deal, how might it impact the club's future prospects and operations?",
+        "answer": "Securing the fresh investment deal could potentially enhance Livingston's financial stability, facilitate player recruitment, improve infrastructure, and overall boost the club's competitiveness in the Scottish Championship."
+    },
+    {
+        "question": "Which BBC channel will broadcast the Aberdeen v Queen's Park Scottish Cup quarter-final match?",
+        "answer": "The Aberdeen v Queen's Park Scottish Cup quarter-final match will be broadcasted live on BBC One Scotland."
+    },
+    {
+        "question": "Who was the first player to arrive at Windsor Park for Linfield during the January transfer window?",
+        "answer": "Kieran Offord was the first player to arrive at Windsor Park after impressing on loan at Crusaders."
+    },
+    {
+        "question": "What was the transfer strategy adopted by Linfield during the January window?",
+        "answer": "Linfield opted for quality over quantity in the January window, making strategic signings like Kieran Offord and Callumn Morrison."
+    },
+    {
+        "question": "What was the source of the racist and homophobic online abuse directed at Calvin Bassey?",
+        "answer": "The abusive messages were shared on social media following Fulham's FA Cup penalty shootout win at Manchester United."
+    },
+    {
+        "question": "Which player did Dundee sign in the January 2025 transfer window?",
+        "answer": "Dundee signed Curtis Main, a forward, in the January 2025 transfer window."
+    },
+    {
+        "question": "How many times has Kyle Walker been named in the Euros team of the tournament?",
+        "answer": "Kyle Walker has been named in the Euros team of the tournament twice in a row, in 2021 and 2024."
+    },
+    {
+        "question": "What tragic event is described in the article?",
+        "answer": "The article describes an air crash that resulted in the deaths of 24 out of 30 people aboard a plane in Gabon on April 28, 1993."
+    },
+    {
+        "question": "What specific amenities will be included in Manchester City's new purpose-built facility for their women's team?",
+        "answer": "The facility will include a hydrotherapy area and a high-performance gym."
+    },
+    {
+        "question": "Who is the manager of Portsmouth and what challenge has he given to his players ahead of the match against Plymouth Argyle?",
+        "answer": "John Mousinho is the manager of Portsmouth and he has challenged his players to produce a repeat of their superb display against Leeds United when they welcome Plymouth Argyle to Fratton Park."
+    },
+    {
+        "question": "In what year did Niall Curneen join Larne as a youth development officer?",
+        "answer": "Niall Curneen joined Larne as a youth development officer in 2018."
+    },
+    {
+        "question": "Compare Vinay Menon's initial knowledge about Chelsea owner Roman Abramovich and football before meeting Abramovich.",
+        "answer": "Vinay Menon knew little about Chelsea owner Roman Abramovich and even less about football; he had never seen a match before meeting Abramovich in 2009."
+    },
+    {
+        "question": "How many seasons has Barrow been in League Two since returning to the EFL?",
+        "answer": "Barrow has been in League Two for five seasons since their return to the EFL."
+    },
+    {
+        "question": "Which teams are currently jostling for the automatic promotion spot in the Scottish Championship?",
+        "answer": "Falkirk, Livingston, and Ayr United are all jostling for the automatic promotion spot in the Scottish Championship."
+    },
+    {
+        "question": "How many points currently separate the top six teams in the 2. Bundesliga after 21 matches?",
+        "answer": "Just six points separate the top six teams in the 2. Bundesliga after 21 matches this season."
+    },
+    {
+        "question": "Who is the Chairman of Barrow football club?",
+        "answer": "Paul Hornby is the Chairman of Barrow football club."
+    },
+    {
+        "question": "If Dom Dwyer were to score 5 more goals this season with Mansfield Town, what would be his total number of goals scored for the club?",
+        "answer": "If Dom Dwyer scores 5 more goals this season with Mansfield Town, his total number of goals scored for the club would be 5."
+    },
+    {
+        "question": "What are the sanctions imposed on the Croatian Football Association by Uefa due to racist behavior by their fans at Euro 2024?",
+        "answer": "Croatia received a 50,000 euros fine and a ban from selling tickets to their next Uefa away match, a Nations League game in Portugal on 5 September."
+    },
+    {
+        "question": "In the EFL Cup quiz mentioned in the article, how many questions must be answered correctly to win the title?",
+        "answer": "Every question answered correctly in the EFL Cup quiz takes you a step closer to the title."
+    },
+    {
+        "question": "How did Manchester City's match against Club Brugge in the revamped Champions League showcase a thrilling climax?",
+        "answer": "Manchester City looked like they were heading out of the competition altogether at half-time before turning the game around."
+    },
+    {
+        "question": "What was the reason behind Burnley players refusing to shake Milutin Osmajic's hand before their FA Cup fifth-round tie?",
+        "answer": "Burnley players declined to shake hands with Preston striker Milutin Osmajic amid racism allegations made by Hannibal Mejbri against Osmajic for racial abuse."
+    },
+    {
+        "question": "How many games did James Chester play during his professional career?",
+        "answer": "James Chester played over 500 games during his 18-year professional career."
+    },
+    {
+        "question": "How did Fulham react to the racist and homophobic online abuse directed at Calvin Bassey?",
+        "answer": "Fulham condemned the 'abhorrent' abuse and stated that it has no place in football or society. They expressed full support for Calvin Bassey and vowed to work with relevant authorities."
+    },
+    {
+        "question": "How did Lens manager Will Still's girlfriend, Emma Saunders, influence his decision to remain in the dugout for the Ligue 1 match against Marseille?",
+        "answer": "Emma Saunders, despite her health problems from encephalitis, encouraged Will Still to stay in the dugout for the game against Marseille."
+    },
+    {
+        "question": "How has James Teelan performed since moving to Shamrock Park?",
+        "answer": "James Teelan has looked bright since moving to Shamrock Park."
+    },
+    {
+        "question": "Hypothetically, if North Korea had won the 2007 Women's World Cup match against the United States, how might that victory have impacted the perception of women's football in North Korea?",
+        "answer": "A victory by North Korea over the United States in the 2007 Women's World Cup match could have potentially boosted the perception and recognition of women's football in North Korea, showcasing their talent on the global stage and garnering more attention and support for the sport within the country."
+    },
+    {
+        "question": "Who is the manager of Birmingham City, as mentioned in the article?",
+        "answer": "Chris Davies is the manager of Birmingham City, leading the team towards promotion in League One."
+    },
+    {
+        "question": "How many points clear is Liverpool from Arsenal in the Premier League table according to the article?",
+        "answer": "Liverpool is leading the table by 15 points, leaving Arsenal in need of binoculars to see them."
+    },
+    {
+        "question": "Why was Burnley manager Scott Parker not allowed to attend post-match interviews after the match?",
+        "answer": "Scott Parker was not allowed to attend post-match interviews due to receiving a red card during the match as per league rules."
+    },
+    {
+        "question": "In the Nathaniel MG Cup 2024-25, which team had the most decisive victory in the final?",
+        "answer": "The New Saints had the most decisive victory in the final, beating Swansea City Under-21s 5-1."
+    },
+    {
+        "question": "How did Mikel Arteta describe his feelings after the result against Manchester United?",
+        "answer": "Mikel Arteta expressed being 'very frustrated' at the outcome of the match against Man Utd."
+    },
+    {
+        "question": "How can UK users participate in Uefa Champions League Squares game according to the article?",
+        "answer": "Gameplay is limited to UK users only, as mentioned in the article."
+    },
+    {
+        "question": "How many total matches did Valerien Ismael manage at Watford before his tenure ended in March 2024?",
+        "answer": "Valerien Ismael managed 40 matches at Watford before his tenure ended in March 2024."
+    },
+    {
+        "question": "How many goals were scored in the cup final mentioned in the article?",
+        "answer": "There were six goals scored during the cup final."
+    },
+    {
+        "question": "How many shots did Paris St-Germain have in the Champions League last 16 first leg match against Liverpool?",
+        "answer": "Paris St-Germain had 27 shots in the match, which is the second-most on record by a side in a Champions League knockout match where they failed to score and lost."
+    },
+    {
+        "question": "Under which coach did Wales achieve promotion to the top tier of the Nations League?",
+        "answer": "Wales achieved promotion to the top tier of the Nations League under Craig Bellamy's first campaign."
+    },
+    {
+        "question": "Which clubs are negotiating for European clubs in the Club World Cup deal?",
+        "answer": "The European Club Association (ECA) is negotiating on behalf of clubs in Europe, including Chelsea and Manchester City."
+    },
+    {
+        "question": "What role did Charlie Methven play in Charlton Athletic since the summer of 2023?",
+        "answer": "Charlie Methven led a takeover of Charlton in the summer of 2023 and has been the chief executive until he decided to step down."
+    },
+    {
+        "question": "Why was Anthony Gordon sent off during Newcastle's match against Brighton?",
+        "answer": "Anthony Gordon was sent off for shoving Brighton defender Jan Paul van Hecke's head during the FA Cup fifth-round defeat."
+    },
+    {
+        "question": "Who is Geoffroy Bony's father and what is his international goal record?",
+        "answer": "Geoffroy Bony's father is Wilfried Bony, who scored 18 international goals for Ivory Coast."
+    },
+    {
+        "question": "How did Will Still decide to remain in the dugout for Lens' match despite his girlfriend's health problems?",
+        "answer": "Will Still decided to remain in the dugout for Lens' match after his girlfriend Emma Saunders instructed him to do so despite her recovering from encephalitis."
+    },
+    {
+        "question": "Who scored the opening goal for Connah's Quay against Caerau Ely?",
+        "answer": "Rhys Hughes scored the opening goal for Connah's Quay against Caerau Ely."
+    },
+    {
+        "question": "What warning did Liverpool manager Arne Slot give after booking his team's place in the English final?",
+        "answer": "Arne Slot warned that it's only special if you can win things after Liverpool's victory in the Carabao Cup semi-final."
+    },
+    {
+        "question": "Which clubs has Marco Rose previously coached before being linked to Rangers?",
+        "answer": "Marco Rose has previously coached Borussia Dortmund and Borussia Monchengladbach before being linked to Rangers."
+    },
+    {
+        "question": "Among Aston Villa, Brighton & Hove Albion, Crystal Palace, and Everton, which club has historically shown a strong preference for signing American players?",
+        "answer": "Everton has historically shown a strong preference for signing American players, as evidenced by their interest in Cameron Carter-Vickers."
+    },
+    {
+        "question": "How do Lennon Miller and James Wilson's ages compare to the average age of Scotland's squad for the Nations League play-off matches?",
+        "answer": "Lennon Miller and James Wilson, both 18 years old, are younger than the average age of Scotland's squad for the Nations League play-off matches."
+    },
+    {
+        "question": "Describe Exeter City's recent performance according to Gary Caldwell and their achievements in their latest match against Mansfield Town.",
+        "answer": "Exeter City boss Gary Caldwell emphasizes the importance of 'keeping their feet on the ground' after achieving back-to-back wins for the first time since December. The Grecians displayed a strong performance in a 2-0 victory over Mansfield Town at St James Park, with a notable penalty claim denied and the Stags failing to register a shot on target."
+    },
+    {
+        "question": "How many years has it been since Nicky Hayen's appointment at semi-professional Haverfordwest County of the Cymru Premier?",
+        "answer": "Three years have passed since Nicky Hayen's appointment at semi-professional Haverfordwest County of the Cymru Premier."
+    },
+    {
+        "question": "Compare the number of players brought in and let go by your League 2 club in January 2025.",
+        "answer": "In January 2025, the League 2 club brought in 4 players and let go of 2 players."
+    },
+    {
+        "question": "According to Troy Deeney, who is a contender for an England starting position based on his performance for Crystal Palace?",
+        "answer": "Dean Henderson"
+    },
+    {
+        "question": "Who scored the first goal for Barry Town in their match against Aberystwyth?",
+        "answer": "Ieuan Owen scored the opening goal for Barry Town in their match against Aberystwyth."
+    },
+    {
+        "question": "Comparatively, what managerial experience does David Gray have in comparison to Steven Gerrard?",
+        "answer": "David Gray, the Hibernian head coach, has managerial experience at Hibernian, while Steven Gerrard has experience managing Rangers and Al-Ettifaq."
+    },
+    {
+        "question": "Who is the manager of Paris St-Germain during the team's dismantling of Lille with a 4-1 victory?",
+        "answer": "Luis Enrique managed Paris St-Germain during the victory against Lille."
+    },
+    {
+        "question": "In what competition are St Mirren still competing in this season?",
+        "answer": "St Mirren are still in the Scottish Cup this season."
+    },
+    {
+        "question": "How many points were Hibernian behind Aberdeen after the 3-3 draw with Aberdeen at Easter Road?",
+        "answer": "Hibernian were 23 points behind Aberdeen after the 3-3 draw at Easter Road."
+    },
+    {
+        "question": "What are the key features of the proposed new Â£2bn 100,000-capacity stadium for Manchester United?",
+        "answer": "The proposed new stadium is designed by Foster + Partners and aims to be the 'world's greatest football stadium'. It will have a capacity of 100,000 and is set to be 'iconic'."
+    },
+    {
+        "question": "What role did Niall Curneen transition into at Larne as the club achieved back-to-back Irish Premiership titles?",
+        "answer": "Niall Curneen transitioned into the role of CEO at Larne as the club achieved back-to-back Irish Premiership titles."
+    },
+    {
+        "question": "Describe Simone Magill's impact in the match between Northern Ireland and Bosnia-Herzegovina.",
+        "answer": "Simone Magill scored two late goals, including a crucial 93rd-minute winner, to secure a dramatic victory for Northern Ireland after they were facing a potential fourth consecutive defeat. Her performance as captain and striker was instrumental in turning the game around."
+    },
+    {
+        "question": "How did Raphinha's mother influence his decision when he was on the verge of quitting football?",
+        "answer": "Raphinha's mother refused to let him quit and told him that if he stopped, he would have to live with that decision for the rest of his life."
+    },
+    {
+        "question": "How has Bromley's recent performance impacted their position in the League Two standings?",
+        "answer": "Bromley's run of five wins in six matches has pushed them to within four points of the top six in the League Two standings."
+    },
+    {
+        "question": "How did Celtic fare against St Mirren in their recent match?",
+        "answer": "Celtic extended their lead after beating St Mirren, with Rodgers describing it as 'one of my favourite results'."
+    },
+    {
+        "question": "If the investment from the US-based British celebrity materializes, what potential benefits could it bring to Barrow FC?",
+        "answer": "The investment could provide exposure for Barrow FC in the US and other parts of the world, leveraging the celebrity's links and attracting outside interest to the Cumbrian outfit."
+    },
+    {
+        "question": "How many matches has Cole Palmer gone without scoring?",
+        "answer": "Cole Palmer has gone nine matches without scoring."
+    },
+    {
+        "question": "Who scored a superb double for Heart of Midlothian in their 3-1 victory over Dundee?",
+        "answer": "January signing Sander Kartum scored a superb double for Heart of Midlothian in their 3-1 victory over Dundee."
+    },
+    {
+        "question": "Who is the goalkeeper for Birmingham City and from which club did he join prior to the current season?",
+        "answer": "Ryan Allsop is the goalkeeper for Birmingham City and he joined from Hull City before the current season."
+    },
+    {
+        "question": "Who did the Championship club sign on loan from Partick Thistle in the January 2025 transfer window?",
+        "answer": "Ricco Diack, forward, was signed on loan from Partick Thistle by the Championship club."
+    },
+    {
+        "question": "How many consecutive clean sheets has Burnley achieved in the Championship?",
+        "answer": "Burnley has achieved 12 consecutive clean sheets in the Championship."
+    },
+    {
+        "question": "What are the potential achievements St Mirren could secure this season?",
+        "answer": "St Mirren could potentially secure a third successive top-six Premiership finish and reach the quarter-finals of the Scottish Cup."
+    },
+    {
+        "question": "Comparatively, how does Carrick Rangers' goal-scoring record in the Irish Premiership season compare to other teams?",
+        "answer": "Carrick Rangers have scored the fewest goals in the league with only 21 goals in 24 matches, making them the lowest scorers among all teams in the Irish Premiership."
+    },
+    {
+        "question": "Why does Exeter City boss Gary Caldwell emphasize the importance of 'keeping their feet on the ground' after achieving back-to-back wins?",
+        "answer": "Gary Caldwell emphasizes maintaining humility and focus to prevent overconfidence and complacency, as the team had not achieved consecutive wins since December and needs to stay grounded despite recent success."
+    },
+    {
+        "question": "How many England matches has Gareth Southgate managed compared to Walter Winterbottom and Sir Alf Ramsey?",
+        "answer": "Gareth Southgate has managed fewer matches than Walter Winterbottom (139) and Sir Alf Ramsey (113)."
+    },
+    {
+        "question": "How many more wins does Celtic need to secure their fourth straight Scottish Premiership title?",
+        "answer": "Celtic need just three more wins to secure their fourth straight Scottish Premiership title before the league splits."
+    },
+    {
+        "question": "How does Noel Mooney view the possibility of a joint UK bid to host the 2035 Women's World Cup?",
+        "answer": "Noel Mooney believes that a successful joint UK bid to host the 2035 Women's World Cup would 'showcase' football in Wales."
+    },
+    {
+        "question": "When was the last time Hibernian beat Celtic at Parkhead in the Scottish Cup?",
+        "answer": "Hibernian last beat Celtic at Parkhead in the Scottish Cup in 1902."
+    },
+    {
+        "question": "Which three players scored winning goals for their clubs at the weekend mentioned in the article?",
+        "answer": "Marc Cucurella, Callum Hudson-Odoi, and Ollie Watkins scored winning goals for their clubs at the weekend."
+    },
+    {
+        "question": "How many goals did Cyriel Dessers score against Fenerbahce in the match mentioned in the article?",
+        "answer": "Cyriel Dessers scored one goal against Fenerbahce in the match."
+    },
+    {
+        "question": "According to manager Simo Valakari, what does he warn St Johnstone to be prepared for when facing Livingston?",
+        "answer": "Simo Valakari warns St Johnstone to be prepared to deal with Livingston's use of football's 'dark arts' to try to win."
+    },
+    {
+        "question": "According to BBC chairman Samir Shah, what does he suggest Match of the Day should prioritize over showing Premier League highlights?",
+        "answer": "Samir Shah suggests that Match of the Day should prioritize analysis and examination of the matches to provide viewers with a deeper insight, rather than being built around highlights."
+    },
+    {
+        "question": "How did football fans, including Manchester United supporters, react to rising ticket prices this season?",
+        "answer": "Football fans, including Manchester United supporters, protested against rising ticket prices this season, expressing unity in the fight against exploitation of loyalty by clubs."
+    },
+    {
+        "question": "What led to Ramon Diaz and his entourage being blocked from entering the ground at Oxford United?",
+        "answer": "Ramon Diaz and his seven-man entourage were blocked from entering the ground at Oxford United after managing the team for only six months."
+    },
+    {
+        "question": "How did Manchester City captain Alex Greenwood react to the sacking of head coach Gareth Taylor?",
+        "answer": "Greenwood was 'shocked' by the decision to sack Taylor and mentioned that she had to digest the news as it was unexpected."
+    },
+    {
+        "question": "What significant event has occurred in the US since Burnley last conceded a league goal?",
+        "answer": "The US has a new President since Burnley last conceded a league goal."
     }
 ]

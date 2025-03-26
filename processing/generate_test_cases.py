@@ -1,5 +1,4 @@
 # Description: This script generates high-quality football test cases using Mistral-7B.
-
 import os
 import json
 import time
@@ -132,7 +131,7 @@ class FootballTestCaseGenerator:
                     new_test_cases.append(test_case)
                     existing_questions.add(question)
 
-            time.sleep(0.4)  #  Faster execution
+            time.sleep(0.4) 
 
         if not new_test_cases:
             print("⚠️ No new test cases were generated. Try increasing the dataset size or adjusting parameters.")
@@ -148,7 +147,7 @@ class FootballTestCaseGenerator:
 
 if __name__ == "__main__":
     generator = FootballTestCaseGenerator()
-    generator.generate_test_cases(num_attempts=400)
+    generator.generate_test_cases(num_attempts=180)
 
 
 
