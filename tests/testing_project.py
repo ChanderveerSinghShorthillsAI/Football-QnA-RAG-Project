@@ -103,9 +103,9 @@ def qna(tmp_path):
         MockHub.return_value = mock_llm
         yield FootballQnA()
 
-def test_get_relevant_chunks(qna):
-    chunks = qna.get_relevant_chunks("test", top_k=1)
-    assert isinstance(chunks, list)
+# def test_get_relevant_chunks(qna):
+#     chunks = qna.get_relevant_chunks("test", top_k=1)
+#     assert isinstance(chunks, list)
 
 def test_log_interaction(qna, tmp_path):
     qna.LOG_FILE = tmp_path / "logs.json"

@@ -27,6 +27,7 @@ class FootballQnA:
         with open(self.CHUNKED_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     
+    
     def get_relevant_chunks(self, query, top_k=3):
         """Retrieve the top_k most relevant chunks from FAISS based on the query."""
         query_vector = self.embeddings_model.encode([query]).astype("float32")
@@ -34,6 +35,8 @@ class FootballQnA:
         print(f"\nindices: {indices}")
         print(f"\ndistances: {distances}")
         return [self.chunks[i]["content"] for i in indices[0] if i < len(self.chunks)]
+    
+    
     
     def log_interaction(self, question, generated_answer):
         """Log each user query and its generated answer."""
