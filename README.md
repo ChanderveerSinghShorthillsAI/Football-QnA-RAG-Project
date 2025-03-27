@@ -1,6 +1,6 @@
 # BBC Football QnA System
 
-A Python-based end-to-end system that scrapes BBC Football articles, chunks and vectorizes the content, stores embeddings in a FAISS vector database, and answers user questions using relevant articles with Mistral-7B from HuggingFace and OpenAI. The project includes automated evaluation of answers using RAGAs and strong testing with pytest.
+A Python-based end-to-end system that scrapes BBC Football articles, chunks and vectorizes the content, stores embeddings in a FAISS vector database, and answers user questions using relevant articles with OpenAI. The project includes automated evaluation of answers using RAGAs and strong testing with pytest.
 
 ---
 
@@ -10,7 +10,7 @@ A Python-based end-to-end system that scrapes BBC Football articles, chunks and 
 - Real-time Football Q&A – Ask football-related questions and receive AI-generated responses.
 - Retrieval-Augmented Generation (RAG) – Enhances LLM-generated responses with real-world data.
 - Efficient Data Pipeline – Includes scraping, chunking, vectorization, retrieval, and answer generation.
-- AI-Powered Answering System – Uses FAISS indexing and Mistral 7B LLM for factual responses.
+- AI-Powered Answering System – Uses FAISS indexing and openAI LLM for factual responses.
 - Automated Evaluation & Optimization – Measures accuracy with RAGAs using faithfulness, context precision, and answer correctness.
 - Comprehensive Testing – Automated unit and integration tests to ensure project robustness.
 - Interactive Streamlit UI – Web interface for easy query submission and response retrieval.
@@ -275,7 +275,7 @@ threshold = 0.8  # Minimum score to mark a test case as passed
 1. **Scraping**: BBC Football articles are scraped using `bbc_scraper.py`.
 2. **Chunking**: The scraped articles are chunked using `chunking.py` for better vector representation.
 3. **Vectorization**: Chunked articles are converted into vector embeddings using `vectorization.py` and stored in a FAISS index.
-4. **Retrieval & QnA**: The relevant article chunks are retrieved, and an answer is generated using Mistral-7B hosted on HuggingFace.
+4. **Retrieval & QnA**: The relevant article chunks are retrieved, and an answer is generated using openAI llm .
 5. **Testing**: Test cases are executed to ensure functionality using `pytest`.
 6. **Evaluation**: Answers are evaluated using RAGAs to ensure faithfulness, context precision, and correctness.
 7. **Summarization**: Evaluation results are summarized and exported to an Excel report.
