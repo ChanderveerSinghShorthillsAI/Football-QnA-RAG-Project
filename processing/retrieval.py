@@ -4,7 +4,7 @@ import numpy as np
 import json
 import datetime
 from sentence_transformers import SentenceTransformer
-from langchain_community.llms import HuggingFaceHub
+from openai import OpenAI
 
 class FootballQnA:
     VECTOR_DB_PATH = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/faiss/faiss_index"
@@ -12,13 +12,9 @@ class FootballQnA:
     LOG_FILE = "/home/shtlp_0060/Desktop/Python Data Scrapping Project/data/QnA_logs/qna_logs.json"
     
     def __init__(self):
-        self.huggingface_api_key = os.getenv("HUGGINGFACE_API_KEY")
+        self.openai_api_key = os.getenv("OPENAI_API_KEY")
+        self.client = OpenAI(api_key=self.openai_api_key)
         self.embeddings_model = SentenceTransformer("all-MiniLM-L6-v2")
-        self.llm = HuggingFaceHub(
-            repo_id="mistralai/Mistral-7B-Instruct-v0.2",
-            huggingfacehub_api_token=self.huggingface_api_key,
-            model_kwargs={"temperature": 0.7, "max_length": 500}
-        )
         self.index = self.load_faiss_index()
         self.chunks = self.load_chunks()
     
@@ -57,7 +53,7 @@ class FootballQnA:
                 json.dump([log_entry], f, indent=4, ensure_ascii=False)
     
     def generate_answer(self, query):
-        """Retrieve relevant chunks and generate an answer using Mistral 7B."""
+        """Retrieve relevant chunks and generate an answer using OpenAI API."""
         relevant_texts = self.get_relevant_chunks(query, top_k=5)
         context = "\n\n".join(relevant_texts)
         
@@ -69,27 +65,33 @@ You are an expert in football. Answer the following question **ONLY using the pr
 - Keep your response **concise** and **factual**.
 - If multiple players/teams are mentioned, compare them **briefly**.
 
-####  Articles:
+#### Articles:
 {context}
 
-####  Question: {query}
+#### Question: {query}
 
- **Answer:**
+**Answer:**
 """
-        response = self.llm.invoke(prompt).strip()
-        self.log_interaction(query, response)
-        return response
+        response = self.client.chat.completions.create(
+            model="gpt-4",  # Or use "gpt-3.5-turbo" if preferred
+            messages=[
+                {"role": "system", "content": "You are a football knowledge assistant."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.7,
+            max_tokens=500
+        )
+        
+        generated_answer = response.choices[0].message.content.strip()
+        self.log_interaction(query, generated_answer)
+        return generated_answer
     
     def run(self):
         while True:
             user_query = input("Ask a football-related question (or type 'exit' to quit): ")
             if user_query.lower() == "exit":
                 break
-            print(f"\n Answer: {self.generate_answer(user_query)}\n")
+            print(f"\nAnswer: {self.generate_answer(user_query)}\n")
 
 if __name__ == "__main__":
     FootballQnA().run()
-
-
-
-
